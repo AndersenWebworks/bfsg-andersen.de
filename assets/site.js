@@ -3,6 +3,41 @@
 (function () {
   "use strict";
 
+  /* ---- Dark-Mode-Umschalter (folgt System, merkt sich die Wahl) ---- */
+  var themeBtn = document.querySelector(".theme-toggle");
+  if (themeBtn) {
+    var root = document.documentElement;
+    var mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
+
+    var effectiveDark = function () {
+      var set = root.getAttribute("data-theme");
+      if (set === "dark") return true;
+      if (set === "light") return false;
+      return mq ? mq.matches : false;
+    };
+    var syncButton = function () {
+      var dark = effectiveDark();
+      themeBtn.setAttribute("aria-pressed", dark ? "true" : "false");
+      themeBtn.setAttribute("aria-label", dark ? "Helles Design einschalten" : "Dunkles Design einschalten");
+    };
+    syncButton();
+
+    themeBtn.addEventListener("click", function () {
+      var dark = !effectiveDark();
+      root.setAttribute("data-theme", dark ? "dark" : "light");
+      try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+      syncButton();
+    });
+
+    if (mq && mq.addEventListener) {
+      mq.addEventListener("change", function () {
+        var stored = null;
+        try { stored = localStorage.getItem("theme"); } catch (e) {}
+        if (stored !== "light" && stored !== "dark") syncButton();
+      });
+    }
+  }
+
   /* ---- Mobile-Navigation ---- */
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");

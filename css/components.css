@@ -199,5 +199,55 @@
 .footer-links li { padding: 0.25rem 0; }
 
 /* ---- Reveal-Animation (nur ohne Reduced Motion aktiv) ---- */
-.reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }
-.reveal.is-visible { opacity: 1; transform: none; }
+html.js .reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease, transform 0.5s ease; }
+html.js .reveal.is-visible { opacity: 1; transform: none; }
+
+/* ---- Header rechts (Nav + Aktionen) ---- */
+.site-header__right { display: flex; align-items: center; gap: var(--space-3); }
+.header-actions { display: flex; align-items: center; gap: var(--space-1); }
+
+/* ---- Theme-Toggle ---- */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; flex: none;
+  background: transparent; border: 1px solid var(--border-strong);
+  border-radius: var(--radius); color: var(--text); cursor: pointer;
+}
+.theme-toggle:hover { border-color: var(--accent-2); color: var(--accent-2); }
+.theme-toggle svg { width: 20px; height: 20px; }
+/* Standard (hell): Mond zeigen (Klick -> dunkel). Dunkel: Sonne zeigen. */
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
+}
+
+/* ---- Trust-Strip ---- */
+.trust-strip { border-bottom: 1px solid var(--border); background: var(--surface); }
+.trust-strip__inner { display: flex; flex-wrap: wrap; gap: 0.4rem var(--space-3); align-items: baseline; padding-block: var(--space-2); }
+.trust-strip__label { font-family: var(--font-mono); font-size: var(--fs-300); color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.trust-strip__item { font-family: var(--font-serif); }
+.trust-strip__sep { color: var(--border-strong); }
+
+/* ---- Benefit-Liste (Haken) ---- */
+.benefits { list-style: none; padding: 0; margin: var(--space-2) 0 0; display: grid; gap: 0.7rem; max-width: 40rem; }
+.benefits li { position: relative; padding-left: 2.1rem; }
+.benefits li::before {
+  content: ""; position: absolute; left: 0.2rem; top: 0.15em;
+  width: 0.95rem; height: 0.55rem;
+  border-left: 3px solid var(--accent); border-bottom: 3px solid var(--accent);
+  transform: rotate(-45deg);
+}
+
+/* ---- Vorher / Nachher ---- */
+.vs { display: grid; gap: var(--space-3); margin-top: var(--space-3); align-items: start; }
+@media (min-width: 44rem) { .vs { grid-template-columns: 1fr 1fr; } }
+.vs__card { border-radius: var(--radius-lg); padding: var(--space-3); border: 1px solid var(--border); }
+.vs__card--before { background: var(--surface-2); }
+.vs__card--after { background: var(--surface); border-left: 4px solid var(--accent); box-shadow: var(--shadow); }
+.vs__tag { font-family: var(--font-mono); font-size: var(--fs-300); text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); display: block; margin-bottom: var(--space-1); }
+.vs__card--after .vs__tag { color: var(--accent-text); }
+.vs__card p { margin: 0; }
