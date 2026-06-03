@@ -1,0 +1,62 @@
+/* tokens.css – Designvariablen, Farben, Typografie, Dark Mode
+   Kontraste gegen WCAG 2.2 AA geprüft (Fließtext >= 4.5:1, große Schrift/UI >= 3:1). */
+
+:root {
+  /* Farben (hell) */
+  --bg: #f5f4ee;          /* warmes Off-White */
+  --surface: #ffffff;
+  --surface-2: #efede4;
+  --text: #1a1a18;        /* warmes Dunkel; auf --bg ~ 15:1 */
+  --text-muted: #4a4843;  /* auf --bg ~ 8:1 */
+  --accent: #a83a3a;      /* Rost (Andersen Webworks); auf --bg ~ 5.7:1 */
+  --accent-ink: #ffffff;  /* Text auf Rost-Flächen; ~ 6.3:1 */
+  --accent-2: #1e3a5f;    /* Navy (Sprache/Vertrauen); auf --bg ~ 10:1 */
+  --accent-2-ink: #ffffff;
+  --border: #e0ded5;
+  --border-strong: #c7c4b8;
+  --focus: #1e3a5f;       /* Fokusring */
+
+  /* Typografie */
+  --font-serif: Georgia, "Times New Roman", "Liberation Serif", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, "Liberation Mono", monospace;
+
+  /* Fluide Schriftgrößen */
+  --fs-300: 0.875rem;
+  --fs-400: 1rem;
+  --fs-500: clamp(1.125rem, 1rem + 0.5vw, 1.3rem);
+  --fs-600: clamp(1.35rem, 1.1rem + 1.1vw, 1.85rem);
+  --fs-700: clamp(1.8rem, 1.4rem + 2vw, 2.7rem);
+  --fs-800: clamp(2.3rem, 1.6rem + 3.4vw, 4rem);
+
+  /* Abstände, Radien, Schatten */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+  --space-6: 6rem;
+  --radius: 10px;
+  --radius-lg: 18px;
+  --shadow: 0 1px 2px rgba(26, 26, 24, 0.06), 0 8px 24px rgba(26, 26, 24, 0.07);
+  --container: 72rem;
+  --measure: 38rem; /* Lesebreite */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1916;
+    --surface: #232019;
+    --surface-2: #2b271f;
+    --text: #f1efe9;        /* auf --bg ~ 14:1 */
+    --text-muted: #c3beb2;  /* auf --bg ~ 8:1 */
+    --accent: #e58a72;      /* helleres Rost/Terrakotta für Dunkel; ~ 6:1 */
+    --accent-ink: #1b1916;
+    --accent-2: #a8c2de;    /* helles Slate; ~ 8:1 */
+    --accent-2-ink: #1b1916;
+    --border: #36322b;
+    --border-strong: #4a463c;
+    --focus: #e58a72;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+}

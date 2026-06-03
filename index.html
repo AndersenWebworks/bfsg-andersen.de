@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barrierefreie Website nach BFSG | Andersen Webworks</title>
+  <meta name="description" content="Barrierefrei nach dem BFSG: technische Umsetzung und verständliche Texte aus einer Hand. Audit, Umsetzung, Erklärung zur Barrierefreiheit. Aus Mecklenburg-Vorpommern, bundesweit remote.">
+  <meta name="theme-color" content="#a83a3a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://bfsg-andersen.de/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Barrierefrei nach BFSG – Code und Text aus einer Hand">
+  <meta property="og:description" content="Audit, Umsetzung und verständliche Texte für barrierefreie Websites nach dem Barrierefreiheitsstärkungsgesetz. Von Andersen Webworks.">
+  <meta property="og:locale" content="de_DE">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Andersen Webworks – Barrierefreiheit",
+    "description": "Barrierefreie Websites nach dem Barrierefreiheitsstärkungsgesetz (BFSG): technische Umsetzung und verständliche Texte aus einer Hand.",
+    "url": "https://bfsg-andersen.de/",
+    "email": "mail@andersen-webworks.de",
+    "areaServed": "DE",
+    "knowsAbout": ["BFSG", "Barrierefreiheit", "WCAG 2.2", "EN 301 549", "Leichte Sprache", "BITV 2.0"],
+    "founder": [
+      { "@type": "Person", "name": "Jan-Erik Andersen", "jobTitle": "Webentwickler" },
+      { "@type": "Person", "name": "Annemarie Andersen", "jobTitle": "Sprachdienstleisterin" }
+    ],
+    "address": { "@type": "PostalAddress", "addressRegion": "Mecklenburg-Vorpommern", "addressCountry": "DE" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Betrifft das BFSG meine Website überhaupt?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Wenn Verbraucher über Ihre Seite kaufen, buchen, bezahlen oder ein Konto nutzen, sehr wahrscheinlich ja. Reine Infoseiten ohne Geschäftsvorgang fallen meist nicht darunter. Im Zweifel klärt das der Check." } },
+      { "@type": "Question", "name": "Gibt es eine Ausnahme für kleine Unternehmen?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Bei Dienstleistungen ja: unter 10 Mitarbeitende und unter 2 Millionen Euro Umsatz oder Bilanzsumme. Beides muss zutreffen. Für Produkte gilt die Ausnahme nicht." } },
+      { "@type": "Question", "name": "Welcher Standard gilt?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Gesetzliche Grundlage ist die EN 301 549, die WCAG 2.1 AA enthält. Wir bauen WCAG-2.2-AA-orientiert, weil 2.2 die neueren Bedienkriterien abdeckt und die Obermenge ist." } },
+      { "@type": "Question", "name": "Brauche ich Leichte Sprache?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Für das BFSG nicht. Leichte Sprache verlangt nur die BITV 2.0 für die öffentliche Hand. Verständliche Inhalte und Alternativtexte sind aber Teil jeder barrierefreien Seite." } },
+      { "@type": "Question", "name": "Was kostet das, und wie schnell?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Der Check startet bei rund 1.900 Euro, mit BAFA-Förderung in Mecklenburg-Vorpommern effektiv ab etwa 380 Euro. Den Festpreis für die Umsetzung bekommen Sie nach dem Check." } },
+      { "@type": "Question", "name": "Was ist die Erklärung zur Barrierefreiheit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ein Pflichtdokument nach dem BFSG, ähnlich wie Impressum und Datenschutz. Sie beschreibt, wie Ihre Seite die Anforderungen erfüllt. Wir formulieren sie mit." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#main" aria-label="Andersen Webworks – Barrierefreiheit, zur Startseite">
+        <img class="brand__mark" src="assets/logo.svg" alt="" width="42" height="28">
+        <span class="brand__name">Andersen Webworks
+          <span class="brand__line">Barrierefreiheit nach BFSG</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span>Menü</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#foerderung">Förderung</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn--primary" href="#kontakt">Kostenlos prüfen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="reveal">
+          <p class="eyebrow">Barrierefreiheit nach dem BFSG</p>
+          <h1>Barrierefrei nach dem BFSG. Und zwar <span class="accent">fertig</span>, nicht nur geprüft.</h1>
+          <p class="lede">Seit Juni 2025 müssen Shops, Buchungs- und Banking-Seiten barrierefrei sein. Die meisten Anbieter prüfen Ihre Seite und schicken Ihnen eine Mängelliste. Wir prüfen, bauen um und schreiben die Inhalte verständlich: Technik von Erik, Sprache von Annemarie. Am Ende haben Sie eine Seite, die funktioniert, kein Hausaufgabenheft.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#kontakt">Kostenlose Ersteinschätzung</a>
+            <a class="btn btn--secondary" href="#foerderung">Was zahlt die Förderung?</a>
+          </div>
+          <p class="hero__trust">Webentwicklung seit 1999, bundesweit remote, aus Mecklenburg-Vorpommern. Referenz: barrierefreier Wirkungsbericht für Senior Partner in School e.&nbsp;V.</p>
+        </div>
+
+        <div class="reveal" aria-hidden="true">
+          <div class="combo">
+            <div class="combo__half combo__half--code">
+              <span class="combo__label">Technik</span>
+              <code>&lt;<span class="tag">button</span> aria-expanded=<br>&nbsp;&nbsp;"false"&gt;<br>&nbsp;&nbsp;Menü<br>&lt;/<span class="tag">button</span>&gt;</code>
+            </div>
+            <div class="combo__half combo__half--text">
+              <span class="combo__label">Sprache</span>
+              <p>„Klicken Sie auf den Knopf. Dann öffnet sich das Menü."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="section section--tint" id="problem" aria-labelledby="problem-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Warum das zählt</p>
+          <h2 id="problem-h">Es geht nicht nur um Bußgelder. Es geht um Kunden, die sonst nicht kaufen.</h2>
+          <p>Barrierefreiheit ist keine Randgruppe. 7,9 Millionen Menschen in Deutschland sind schwerbehindert, fast jeder Zehnte. Dazu kommen Millionen mit leichteren Einschränkungen: nachlassende Sehkraft, eine unsichere Hand, schlechtes Hören. Und es werden mehr, weil die Bevölkerung altert, fast jeder Vierte ist heute über 65. Wer Ihren Shop nicht bequem bedienen kann, kauft woanders. Barrierefrei zu sein heißt schlicht: mehr Menschen kommen bei Ihnen bis zur Kasse.</p>
+          <p>Und die Pflicht wird ernst genommen: Die Marktüberwachungsstelle der Länder prüft seit Anfang 2026 aktiv, die erste Abmahnung kam schon sechs Wochen nach dem Stichtag.</p>
+        </div>
+
+        <div class="stats reveal">
+          <div class="stat">
+            <div class="stat__num">100.000 €</div>
+            <p class="stat__label">höchstes Bußgeld bei schweren Verstößen</p>
+          </div>
+          <div class="stat">
+            <div class="stat__num">3.500–20.000 €</div>
+            <p class="stat__label">was eine einzige Abmahnung real kostet</p>
+          </div>
+          <div class="stat">
+            <div class="stat__num">06/2025</div>
+            <p class="stat__label">Pflicht für Shops, Buchung und Banking, ohne Übergangsfrist</p>
+          </div>
+        </div>
+
+        <div class="scope reveal">
+          <div class="scope__col scope__col--yes">
+            <h3>Trifft Sie sehr wahrscheinlich</h3>
+            <ul>
+              <li>Online-Shops und Kaufvorgänge</li>
+              <li>Buchungs- und Terminstrecken</li>
+              <li>Online-Banking und Konto-Login</li>
+              <li>Apps mit Kauf- oder Vertragsabschluss</li>
+              <li>Telekommunikation und Personenverkehr</li>
+            </ul>
+          </div>
+          <div class="scope__col scope__col--no">
+            <h3>Trifft Sie eher nicht</h3>
+            <ul>
+              <li>reine Infoseiten ohne Geschäftsvorgang</li>
+              <li>B2B-Angebote ohne Verbrauchergeschäft</li>
+              <li>Kleinstunternehmen bei Dienstleistungen: unter 10 Mitarbeitende und unter 2 Mio. Euro. Achtung: gilt nicht für Produkte.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="reveal"><strong>Unsicher, ob Sie betroffen sind?</strong> Das klären wir vorab, kostenlos und unverbindlich.</p>
+        <p class="reveal" style="font-size:var(--fs-300);color:var(--text-muted)">Zahlen: Statistisches Bundesamt, schwerbehinderte Menschen 2023 und Bevölkerung ab 65 Jahren 2024.</p>
+      </div>
+    </section>
+
+    <!-- DUO -->
+    <section class="section" id="unterschied" aria-labelledby="duo-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Warum wir</p>
+          <h2 id="duo-h">Die meisten können Code oder Text. Wir beides.</h2>
+          <p>Barrierefreiheit scheitert selten nur an der Technik. Genauso oft sind es die Inhalte: Texte, die niemand versteht, Fehlermeldungen, die nicht weiterhelfen, Alternativtexte, die fehlen. Bei uns macht eine Person den Code und eine die Sprache. Sie haben einen Ansprechpartner, und nichts fällt zwischen die Stühle.</p>
+        </div>
+        <div class="duo">
+          <div class="card reveal">
+            <p class="person__role">Technik</p>
+            <h3>Jan-Erik Andersen</h3>
+            <p>Baut Websites seit 1999. WCAG, semantisches HTML, Tastaturbedienung, Screenreader-Logik, Fokus-Management. Der Teil, den automatische Tools nur halb finden und der von Hand geprüft gehört.</p>
+          </div>
+          <div class="card reveal">
+            <p class="person__role">Sprache</p>
+            <h3>Annemarie Andersen</h3>
+            <p>Lektorin mit QA-Hintergrund. Verständliche Texte, Leichte und Einfache Sprache, saubere Alternativtexte, klare Fehlermeldungen. Damit Inhalte ankommen, nicht nur technisch korrekt sind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEISTUNGEN -->
+    <section class="section section--tint" id="leistungen" aria-labelledby="leist-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Leistungen</p>
+          <h2 id="leist-h">Alles aus einer Hand, mit klarem Festpreis.</h2>
+          <p>Sie brauchen keine drei Dienstleister. Prüfung, Umsetzung, Texte und das Pflichtdokument bekommen Sie hier zusammen. Den Festpreis nennen wir vor dem ersten Handgriff.</p>
+        </div>
+        <div class="grid grid--3">
+          <div class="card reveal">
+            <h3>Barrierefreiheits-Check</h3>
+            <p class="card__price">ab 1.900 €</p>
+            <p>Wir prüfen Technik und Inhalte von Hand und sagen Ihnen klar: Was ist kritisch, was kann warten, was kostet die Umsetzung. Mit Förderung in MV effektiv ab rund 380 €.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Technische Umsetzung</h3>
+            <p class="card__price">Festpreis nach Check</p>
+            <p>Wir beheben die Punkte aus dem Bericht, im Code und im Text. WCAG-2.2-orientiert, sauber dokumentiert, zum Festpreis. Keine Überraschung auf der Rechnung.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Texte &amp; Leichte Sprache</h3>
+            <p class="card__price">nach Aufwand</p>
+            <p>Verständliche Inhalte, Alternativtexte, Leichte und Einfache Sprache. Von einer Lektorin geschrieben, nicht von einem Tool generiert.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Erklärung zur Barrierefreiheit</h3>
+            <p class="card__price">Festpreis</p>
+            <p>Das Pflichtdokument nach dem BFSG, korrekt formuliert und ohne juristische Angriffsfläche.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Monitoring</h3>
+            <p class="card__price">ab 400 €/Monat</p>
+            <p>Laufende Pflege, damit die Seite barrierefrei bleibt: Updates, Stichproben, neue Inhalte geprüft.</p>
+          </div>
+          <div class="card reveal">
+            <h3>Schulung</h3>
+            <p class="card__price">auf Anfrage</p>
+            <p>Damit Ihr Team neue Inhalte selbst barrierefrei pflegt: Alternativtexte, verständliche Sprache, korrekte Strukturen.</p>
+          </div>
+        </div>
+        <p class="reveal" style="margin-top:var(--space-3)"><span class="pill">Hinweis</span> Alle Preise netto und als Orientierung. Den verbindlichen Festpreis bekommen Sie nach dem Check.</p>
+      </div>
+    </section>
+
+    <!-- FOERDERUNG -->
+    <section class="section" id="foerderung" aria-labelledby="foerd-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Förderung</p>
+          <h2 id="foerd-h">Den Check zahlt zum großen Teil der Staat.</h2>
+          <p>Die BAFA fördert die Beratung zur Barrierefreiheit. Bundesweit mit 50 Prozent, in Ostdeutschland und damit auch bei Ihnen in Mecklenburg-Vorpommern mit bis zu 80 Prozent.</p>
+        </div>
+        <div class="callout reveal">
+          <p><strong>Rechenbeispiel: Barrierefreiheits-Check in MV</strong></p>
+          <ul class="calc">
+            <li><span>Barrierefreiheits-Check</span> <span>1.900 €</span></li>
+            <li><span>BAFA-Förderung (80 % in MV)</span> <span>− 1.520 €</span></li>
+            <li><span>Ihr Eigenanteil</span> <span>380 €</span></li>
+          </ul>
+          <p style="margin-top:var(--space-2)"><span class="pill">Ehrlich</span> Förderquoten und Deckelung ändern sich. Die genauen Konditionen für 2026 prüfen wir, bevor wir Ihnen ein Angebot machen.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENZEN -->
+    <section class="section section--tint" id="referenzen" aria-labelledby="ref-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Referenzen</p>
+          <h2 id="ref-h">Schon zusammen gemacht.</h2>
+        </div>
+        <div class="quote reveal">
+          <blockquote>„Jan-Erik und die kompetente Texterin Annemarie haben das für uns neue Format professionell und barrierefreundlich aufgesetzt. Super Teamarbeit, verlässlich und engagiert."</blockquote>
+          <cite>Karin Chierchia, Senior Partner in School e.&nbsp;V.</cite>
+        </div>
+        <ul class="reveal" style="margin-top:var(--space-3)">
+          <li>Digitaler Wirkungsbericht für Senior Partner in School e.&nbsp;V., barrierefreundlich umgesetzt: Technik von Erik, Texte von Annemarie.</li>
+          <li>Leichte Sprache für den Deutschen Zukunftspreis (Geleitwort des Bundespräsidenten), geprüft durch das Büro für Leichte Sprache Iserlohn.</li>
+          <li>Förderleitfaden des Bundesfinanzministeriums (foerderleitfaden.bund.de): Leichte Sprache nach BITV 2.0.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABLAUF -->
+    <section class="section" id="ablauf" aria-labelledby="abl-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">So läuft es</p>
+          <h2 id="abl-h">Vom Check bis zur dokumentierten Seite.</h2>
+        </div>
+        <ol class="steps reveal">
+          <li><strong>Kurzes Gespräch, kostenlos.</strong> Was bietet Ihre Seite an, wo entsteht ein Geschäftsvorgang? Daraus sehen wir, ob und wie das BFSG Sie betrifft.</li>
+          <li><strong>Der Check.</strong> Wir prüfen Technik und Inhalte von Hand, nicht nur per Tool. Sie bekommen einen priorisierten Bericht: was kritisch ist, was warten kann.</li>
+          <li><strong>Umsetzung zum Festpreis.</strong> Wir beheben die Punkte aus dem Bericht, Code und Text gemeinsam.</li>
+          <li><strong>Erklärung und Nachweis.</strong> Sie bekommen die Erklärung zur Barrierefreiheit und eine Dokumentation, was geprüft und geändert wurde.</li>
+          <li><strong>Auf Wunsch Monitoring.</strong> Damit die Seite barrierefrei bleibt, auch bei neuen Inhalten.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EHRLICHKEIT -->
+    <section class="section section--tint" id="klartext" aria-labelledby="ehr-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Klartext</p>
+          <h2 id="ehr-h">Zwei Dinge, die wir nicht behaupten.</h2>
+        </div>
+        <div class="honest">
+          <blockquote class="reveal">
+            <h3>Keine 100-Prozent-Zertifizierung.</h3>
+            <p>Barrierefreiheit ist kein Stempel, den man kauft. Wir bauen WCAG-2.2-AA-orientiert und testen von Hand. Was offen bleibt, schreiben wir hin, statt es zu verschweigen.</p>
+          </blockquote>
+          <blockquote class="reveal">
+            <h3>BFSG heißt nicht automatisch Leichte Sprache.</h3>
+            <p>Das BFSG verlangt technische Barrierefreiheit, keine Leichte Sprache. Die schreibt nur die BITV 2.0 für Behörden vor. Wer Ihnen mit Bußgeldern für fehlende Leichte Sprache droht, hat das Gesetz nicht genau gelesen.</p>
+          </blockquote>
+        </div>
+        <p class="reveal" style="margin-top:var(--space-3)">Diese Seite hält sich selbst an die Regeln. Hier ist unsere <a href="barrierefreiheit/">Erklärung zur Barrierefreiheit</a>.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Häufige Fragen</p>
+          <h2 id="faq-h">Was Kunden zuerst fragen.</h2>
+        </div>
+        <div class="accordion reveal">
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+                Betrifft das BFSG meine Website überhaupt?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn" hidden>
+              <p>Wenn Verbraucher über Ihre Seite kaufen, buchen, bezahlen oder ein Konto nutzen, sehr wahrscheinlich ja. Reine Infoseiten ohne Geschäftsvorgang fallen meist nicht darunter. Im Zweifel klärt das der Check.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+                Gibt es eine Ausnahme für kleine Unternehmen?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn" hidden>
+              <p>Bei Dienstleistungen ja: unter 10 Mitarbeitende und unter 2 Millionen Euro Umsatz oder Bilanzsumme. Beides muss zutreffen. Für Produkte gilt die Ausnahme nicht.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+                Welcher Standard gilt?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn" hidden>
+              <p>Gesetzliche Grundlage ist die EN 301 549, die WCAG 2.1 AA enthält. Wir bauen WCAG-2.2-AA-orientiert, weil 2.2 die neueren Bedienkriterien abdeckt und die Obermenge ist.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+                Brauche ich Leichte Sprache?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn" hidden>
+              <p>Für das BFSG nicht. Leichte Sprache verlangt nur die BITV 2.0 für die öffentliche Hand. Verständliche Inhalte und Alternativtexte sind aber Teil jeder barrierefreien Seite, und da hilft Annemarie.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+                Was kostet das, und wie schnell?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn" hidden>
+              <p>Der Check startet bei rund 1.900 Euro, mit BAFA-Förderung in MV effektiv ab etwa 380 Euro. Den Festpreis für die Umsetzung bekommen Sie nach dem Check. Das Tempo hängt vom Umfang ab, das sagen wir vorab.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">
+                Was ist die Erklärung zur Barrierefreiheit?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn" hidden>
+              <p>Ein Pflichtdokument nach dem BFSG, ähnlich wie Impressum und Datenschutz. Sie beschreibt, wie Ihre Seite die Anforderungen erfüllt. Wir formulieren sie mit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section section--tint" id="kontakt" aria-labelledby="kon-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="kon-h">Erfahren Sie kostenlos, ob Sie betroffen sind.</h2>
+          <p>Schreiben Sie kurz, worum es geht und um welche Seite. Sie bekommen eine ehrliche Ersteinschätzung, kostenlos und unverbindlich: ob das BFSG Sie betrifft und was als Nächstes sinnvoll ist. Lieber direkt? <a href="mailto:mail@andersen-webworks.de">mail@andersen-webworks.de</a>.</p>
+        </div>
+
+        <form id="kontakt-form" class="reveal" novalidate style="max-width:38rem">
+          <div class="field">
+            <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="f-name-err">
+            <span class="error-msg" id="f-name-err">Bitte tragen Sie Ihren Namen ein.</span>
+          </div>
+          <div class="field">
+            <label for="f-mail">E-Mail <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-mail" name="email" type="email" autocomplete="email" required aria-required="true" aria-describedby="f-mail-err">
+            <span class="error-msg" id="f-mail-err">Bitte tragen Sie eine gültige E-Mail-Adresse ein.</span>
+          </div>
+          <div class="field">
+            <label for="f-url">Website</label>
+            <span class="hint" id="f-url-hint">Die Adresse, um die es geht. Optional.</span>
+            <input id="f-url" name="website" type="url" inputmode="url" placeholder="https://" aria-describedby="f-url-hint">
+          </div>
+          <div class="field">
+            <label for="f-msg">Worum geht es? <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-msg" name="nachricht" required aria-required="true" aria-describedby="f-msg-err"></textarea>
+            <span class="error-msg" id="f-msg-err">Bitte schreiben Sie ein paar Worte zu Ihrem Anliegen.</span>
+          </div>
+          <button class="btn btn--primary" type="submit">Ersteinschätzung anfragen</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#main" aria-label="Andersen Webworks – Barrierefreiheit">
+          <img class="brand__mark" src="assets/logo.svg" alt="" width="42" height="28">
+          <span class="brand__name">Andersen Webworks
+            <span class="brand__line">Barrierefreiheit nach BFSG</span>
+          </span>
+        </a>
+        <p style="margin-top:var(--space-2);color:var(--text-muted)">Barrierefreie Websites nach dem BFSG. Technik und Texte aus einer Hand. Aus Mecklenburg-Vorpommern, bundesweit remote.</p>
+      </div>
+      <nav aria-label="Seiten">
+        <h2 class="visually-hidden">Seiten</h2>
+        <ul class="footer-links">
+          <li><a href="#leistungen">Leistungen</a></li>
+          <li><a href="#foerderung">Förderung</a></li>
+          <li><a href="#faq">Häufige Fragen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Rechtliches">
+        <h2 class="visually-hidden">Rechtliches</h2>
+        <ul class="footer-links">
+          <li><a href="barrierefreiheit/">Erklärung zur Barrierefreiheit</a></li>
+          <li><a href="https://andersen-webworks.de/impressum">Impressum</a></li>
+          <li><a href="https://andersen-webworks.de/datenschutz">Datenschutz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>

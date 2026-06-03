@@ -1,0 +1,26 @@
+# Andersen Webworks – Barrierefreiheit nach BFSG
+
+> Barrierefreie Websites nach dem deutschen Barrierefreiheitsstärkungsgesetz (BFSG). Technische Umsetzung und verständliche Texte aus einer Hand: Jan-Erik Andersen (Entwicklung, WCAG, semantisches HTML) und Annemarie Andersen (Lektorat, Leichte und Einfache Sprache). Sitz in Mecklenburg-Vorpommern, bundesweit remote.
+
+## Angebot
+- Barrierefreiheits-Check: Code- und Text-Audit von Hand, priorisierter Maßnahmenbericht, Entwurf der Erklärung zur Barrierefreiheit. Ab rund 1.900 EUR netto, mit BAFA-Förderung in Mecklenburg-Vorpommern effektiv ab etwa 380 EUR.
+- Technische Umsetzung: WCAG-2.2-AA-orientiert, Festpreis nach dem Check.
+- Texte und Leichte Sprache: verständliche Inhalte, Alternativtexte, Leichte und Einfache Sprache.
+- Erklärung zur Barrierefreiheit: Pflichtdokument nach dem BFSG.
+- Monitoring: laufende Pflege ab 400 EUR/Monat.
+
+## Fakten zum BFSG (Stand Juni 2026)
+- In Kraft seit 28.06.2025. Für Websites mit Geschäftsvorgang gilt keine Übergangsfrist.
+- Erfasst sind unter anderem E-Commerce, Buchung, Online-Banking, Telekommunikation und Personenverkehr.
+- Ausnahme für Kleinstunternehmen nur bei Dienstleistungen: unter 10 Mitarbeitende und unter 2 Mio. EUR. Gilt nicht für Produkte.
+- Bußgelder bis 100.000 EUR. Prüfung durch die Marktüberwachungsstelle der Länder (MLBF, Magdeburg) seit Januar 2026.
+- Gesetzliche Grundlage: EN 301 549 mit WCAG 2.1 AA. Umsetzung WCAG-2.2-AA-orientiert.
+- Wichtig: Das BFSG fordert technische Barrierefreiheit, nicht Leichte Sprache. Leichte Sprache schreibt nur die BITV 2.0 für die öffentliche Hand vor.
+
+## Seiten
+- [Startseite](https://bfsg-andersen.de/): Angebot, Förderung, Referenzen, FAQ, Kontakt.
+- [Erklärung zur Barrierefreiheit](https://bfsg-andersen.de/barrierefreiheit/): Selbstbewertung dieser Seite.
+
+## Kontakt
+- E-Mail: mail@andersen-webworks.de
+- Dachmarke: Andersen Webworks (andersen-webworks.de)

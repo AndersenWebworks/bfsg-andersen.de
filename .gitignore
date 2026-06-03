@@ -1,0 +1,15 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.log
+
+# Temporär
+*.tmp
+
+# Interne Doku und Projektkontext: bewusst nicht im öffentlichen Repo
+docs/
+.claude/

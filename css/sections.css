@@ -1,0 +1,62 @@
+/* sections.css – Hero und sektionsspezifische Layouts */
+
+/* ---- Hero ---- */
+.hero { padding-block: var(--space-5) var(--space-6); }
+.hero__grid { display: grid; gap: var(--space-4); align-items: center; }
+@media (min-width: 54rem) { .hero__grid { grid-template-columns: 1.15fr 0.85fr; } }
+.hero h1 { margin-bottom: var(--space-2); }
+.hero .accent { color: var(--accent); }
+.hero__cta { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-3); }
+.hero__trust { margin-top: var(--space-3); color: var(--text-muted); font-size: var(--fs-300); }
+
+/* Hero-Visual: zeigt „Code + Text" wörtlich */
+.combo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  min-height: 15rem;
+}
+.combo__half { padding: var(--space-3); display: flex; flex-direction: column; gap: 0.4rem; }
+.combo__half--code { background: var(--accent-2); color: var(--accent-2-ink); font-family: var(--font-mono); font-size: 0.82rem; line-height: 1.7; }
+.combo__half--code .tag { color: #a8c2de; }
+.combo__half--text { background: var(--surface); }
+.combo__label { font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.8; margin-bottom: 0.4rem; }
+.combo__half--text p { font-family: var(--font-serif); font-size: 1.05rem; line-height: 1.5; margin: 0; color: var(--text); }
+
+/* ---- Statistik-Reihe (Problem) ---- */
+.stats { display: grid; gap: var(--space-2); margin-top: var(--space-3); }
+@media (min-width: 40rem) { .stats { grid-template-columns: repeat(3, 1fr); } }
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-2); }
+.stat__num { font-family: var(--font-serif); font-size: var(--fs-700); color: var(--accent); line-height: 1; }
+.stat__label { color: var(--text-muted); font-size: var(--fs-300); margin-top: 0.3rem; }
+
+/* ---- Scope-Tabelle (wen es trifft) ---- */
+.scope { display: grid; gap: var(--space-3); margin-top: var(--space-3); }
+@media (min-width: 44rem) { .scope { grid-template-columns: 1fr 1fr; } }
+.scope__col { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: var(--space-3); }
+.scope__col h3 { display: flex; align-items: center; gap: 0.5rem; margin-top: 0; }
+.scope__col ul { margin: 0; padding-left: 1.2rem; }
+.scope__col li { margin-bottom: 0.4rem; }
+.scope__col--yes { border-top: 4px solid var(--accent); }
+.scope__col--no { border-top: 4px solid var(--accent-2); }
+
+/* ---- Duo ---- */
+.duo { display: grid; gap: var(--space-3); margin-top: var(--space-3); }
+@media (min-width: 44rem) { .duo { grid-template-columns: 1fr 1fr; } }
+
+/* ---- Trust / Ehrlichkeit ---- */
+.honest { display: grid; gap: var(--space-3); margin-top: var(--space-3); }
+@media (min-width: 44rem) { .honest { grid-template-columns: 1fr 1fr; } }
+.honest blockquote { margin: 0; padding: var(--space-3); background: var(--surface); border-left: 4px solid var(--accent); border-radius: var(--radius); }
+.honest blockquote p:last-child { margin-bottom: 0; }
+
+/* ---- Referenz-Zitat ---- */
+.quote { background: var(--surface); border-radius: var(--radius-lg); padding: var(--space-4); box-shadow: var(--shadow); border: 1px solid var(--border); }
+.quote blockquote { font-family: var(--font-serif); font-size: var(--fs-500); line-height: 1.5; margin: 0 0 var(--space-2); }
+.quote cite { font-style: normal; color: var(--text-muted); font-size: var(--fs-300); }
+
+.section-head { max-width: 46rem; margin-bottom: var(--space-3); }
+.center { text-align: center; margin-inline: auto; }
