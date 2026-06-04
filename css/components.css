@@ -256,10 +256,6 @@ html.js .reveal.is-visible { opacity: 1; transform: none; }
 .person__photo { width: 76px; height: 76px; border-radius: 50%; object-fit: cover; flex: none; border: 2px solid var(--border); background: var(--surface-2); }
 .person h3 { margin-top: 0; }
 
-/* ---- Hero-Visual mit Bildunterschrift ---- */
-.hero__visual { display: flex; flex-direction: column; gap: var(--space-2); }
-.combo__caption { font-size: var(--fs-300); color: var(--text-muted); margin: 0; max-width: 30rem; }
-
 /* ---- Zwei Testimonials nebeneinander ---- */
 .quotes { display: grid; gap: var(--space-3); }
 @media (min-width: 44rem) { .quotes { grid-template-columns: 1fr 1fr; } }

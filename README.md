@@ -1,6 +1,6 @@
 # bfsg-andersen.de
 
-Landingpage für das BFSG-Angebot von Andersen Webworks. Barrierefreie Websites nach dem Barrierefreiheitsstärkungsgesetz: Technik und Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, Sprache).
+Landingpage für den **BFSG Webcheck** von Andersen Webworks. Barrierefreie Websites nach dem Barrierefreiheitsstärkungsgesetz: Prüfung, Umsetzung und verständliche Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, Sprache).
 
 ## Struktur
 
@@ -9,7 +9,7 @@ Landingpage für das BFSG-Angebot von Andersen Webworks. Barrierefreie Websites 
 ├── index.html              Landingpage
 ├── llms.txt                KI-/Agent-Sichtbarkeit (GEO/AVO)
 ├── css/                    tokens, base, components, sections
-├── assets/                 Logo, Favicon, site.js
+├── assets/                 Logo, Favicon, Hero-Bild, Portraits, site.js
 └── barrierefreiheit/       Erklärung zur Barrierefreiheit der LP
 ```
 

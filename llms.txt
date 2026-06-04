@@ -1,9 +1,9 @@
-# Andersen Webworks – Barrierefreiheit nach BFSG
+# BFSG Webcheck von Andersen Webworks
 
-> Barrierefreie Websites nach dem deutschen Barrierefreiheitsstärkungsgesetz (BFSG). Technische Umsetzung und verständliche Texte aus einer Hand: Jan-Erik Andersen (Entwicklung, WCAG, semantisches HTML) und Annemarie Andersen (Lektorat, Leichte und Einfache Sprache). Sitz in Mecklenburg-Vorpommern, bundesweit remote.
+> Barrierefreie Websites nach dem deutschen Barrierefreiheitsstärkungsgesetz (BFSG). Prüfung, technische Umsetzung und verständliche Texte aus einer Hand: Jan-Erik Andersen (Entwicklung, WCAG, semantisches HTML) und Annemarie Andersen (Lektorat, Leichte und Einfache Sprache). Sitz in Mecklenburg-Vorpommern, bundesweit remote.
 
 ## Angebot
-- Barrierefreiheits-Check: Code- und Text-Audit von Hand, priorisierter Maßnahmenbericht, Entwurf der Erklärung zur Barrierefreiheit. Ab rund 1.900 EUR netto, mit BAFA-Förderung in Mecklenburg-Vorpommern effektiv ab etwa 380 EUR.
+- BFSG Webcheck: Code- und Text-Audit von Hand, priorisierter Maßnahmenbericht, Entwurf der Erklärung zur Barrierefreiheit. Ab rund 1.900 EUR netto, mit BAFA-Förderung in Mecklenburg-Vorpommern effektiv ab etwa 380 EUR.
 - Technische Umsetzung: WCAG-2.2-AA-orientiert, Festpreis nach dem Check.
 - Texte und Leichte Sprache: verständliche Inhalte, Alternativtexte, Leichte und Einfache Sprache.
 - Erklärung zur Barrierefreiheit: Pflichtdokument nach dem BFSG.
