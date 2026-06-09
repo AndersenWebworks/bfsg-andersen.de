@@ -26,6 +26,7 @@
 - Es gibt keine pauschale BFSG-Compliance-Garantie und kein "100 Prozent barrierefrei"-Versprechen.
 - Ob eine konkrete Website rechtlich unter das BFSG fällt, muss projektspezifisch geklärt werden.
 - Leichte Sprache ist keine pauschale BFSG-Pflicht für private Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
+- Die Leichte-Sprache-Seite ist als eigene Fassung geschrieben. Sie ist offen als noch nicht durch eine Prüfgruppe geprüft gekennzeichnet.
 - Förderprogramme können den Eigenanteil senken, müssen aber vor Angebot und Auftrag konkret geprüft werden.
 
 ## Technischer Standard
