@@ -53,6 +53,13 @@ img, svg { max-width: 100%; height: auto; }
 /* Maus-Klick erzeugt keinen Dauerring, Tastatur schon */
 :focus:not(:focus-visible) { outline: none; }
 
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid Highlight;
+    forced-color-adjust: auto;
+  }
+}
+
 /* Skip-Link: erst bei Fokus sichtbar */
 .skip-link {
   position: absolute;
@@ -77,7 +84,7 @@ img, svg { max-width: 100%; height: auto; }
 .eyebrow {
   font-family: var(--font-mono);
   font-size: var(--fs-300);
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: var(--accent-text);
   margin: 0 0 var(--space-1);

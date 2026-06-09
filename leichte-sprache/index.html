@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BFSG Webcheck in Leichter Sprache | Andersen Webworks</title>
+  <meta name="description" content="BFSG Webcheck in Leichter Sprache: Wir prüfen Barrierefreiheit von Websites, Shops, Formularen und Buchungen.">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8f5">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171b19">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://bfsg-andersen.de/leichte-sprache/">
+  <link rel="alternate" hreflang="de" href="https://bfsg-andersen.de/">
+  <link rel="alternate" hreflang="en" href="https://bfsg-andersen.de/en/">
+  <link rel="alternate" hreflang="de-x-easy" href="https://bfsg-andersen.de/leichte-sprache/">
+  <link rel="alternate" hreflang="x-default" href="https://bfsg-andersen.de/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BFSG Webcheck in Leichter Sprache">
+  <meta property="og:description" content="Wir erklären den BFSG Webcheck in Leichter Sprache.">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.add('js');
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') d.setAttribute('data-theme', t);
+        var s = localStorage.getItem('text-size');
+        if (s === 'large' || s === 'xlarge') d.setAttribute('data-text-size', s);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="preload" href="../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/libre-baskerville-regular-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/sections.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "BFSG Webcheck in Leichter Sprache",
+    "url": "https://bfsg-andersen.de/leichte-sprache/",
+    "inLanguage": "de",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "BFSG Webcheck",
+      "url": "https://bfsg-andersen.de/"
+    },
+    "about": {
+      "@type": "Service",
+      "name": "BFSG Webcheck",
+      "provider": {
+        "@type": "ProfessionalService",
+        "name": "Andersen Webworks"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#main" aria-label="BFSG Webcheck von Andersen Webworks, zum Haupt-Inhalt">
+        <img class="brand__mark" src="../assets/logo.svg" alt="" width="42" height="28">
+        <span class="brand__name">Andersen Webworks
+          <span class="brand__line">BFSG Webcheck</span>
+        </span>
+      </a>
+
+      <div class="site-header__right">
+        <nav class="site-nav" id="site-nav" aria-label="Hauptnavigation">
+          <ul>
+            <li><a href="#angebot">Angebot</a></li>
+            <li><a href="#pruefung">Prüfung</a></li>
+            <li><a href="#kosten">Kosten</a></li>
+            <li><a href="#fragen">Fragen</a></li>
+            <li><a class="btn btn--primary" href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <nav class="language-switcher" aria-label="Sprachversionen">
+          <ul>
+            <li><a href="../" lang="de">Deutsch</a></li>
+            <li><a href="../en/" lang="en">English</a></li>
+            <li><a href="./" aria-current="page" lang="de">Leichte Sprache</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions" role="group" aria-label="Darstellung">
+          <div class="text-size-control" role="group" aria-label="Schriftgröße">
+            <button class="text-size-control__btn" type="button" data-text-size-option="normal" aria-pressed="true" aria-label="Normale Schriftgröße">A</button>
+            <button class="text-size-control__btn" type="button" data-text-size-option="large" aria-pressed="false" aria-label="Große Schriftgröße">A+</button>
+            <button class="text-size-control__btn" type="button" data-text-size-option="xlarge" aria-pressed="false" aria-label="Sehr große Schriftgröße">A++</button>
+          </div>
+          <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Dunkles Design einschalten" title="Hell und Dunkel umschalten">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü öffnen">
+            <span class="nav-toggle__bars" aria-hidden="true"></span>
+            <span>Menü</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="reveal">
+          <p class="eyebrow">Leichte Sprache</p>
+          <h1>Wir prüfen Barriere-Freiheit für Websites.</h1>
+          <p class="lede">Dieses Angebot heißt <strong>BFSG Webcheck</strong>. Wir schauen uns Ihre Website genau an. Zum Beispiel Ihren Online-Shop, Ihr Formular oder Ihre Buchung. Wir prüfen: Können alle Menschen die Website gut benutzen?</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#kontakt">Nachricht schreiben</a>
+            <a class="btn btn--secondary" href="#angebot">Mehr lesen</a>
+          </div>
+          <p class="hero__trust">Wir arbeiten in Mecklenburg-Vorpommern. Wir arbeiten für Kunden in ganz Deutschland.</p>
+        </div>
+
+        <div class="reveal hero__visual">
+          <div class="combo" aria-hidden="true">
+            <div class="combo__half combo__half--code">
+              <span class="combo__label">Technik</span>
+              <code>&lt;<span class="tag">button</span>&gt;<br>Menü<br>&lt;/<span class="tag">button</span>&gt;</code>
+            </div>
+            <div class="combo__half combo__half--text">
+              <span class="combo__label">Text</span>
+              <p>„Klicken Sie auf den Knopf. Dann öffnet sich das Menü."</p>
+            </div>
+          </div>
+          <p class="combo__caption">Wir machen Technik und Texte verständlich.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="trust-strip reveal" aria-label="Hinweis">
+      <div class="container trust-strip__inner">
+        <span class="trust-strip__label">Wichtig</span>
+        <span class="trust-strip__item">Diese Seite erklärt das Angebot in Leichter Sprache.</span>
+      </div>
+    </aside>
+
+    <section class="section section--tint" id="angebot" aria-labelledby="angebot-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Was ist das?</p>
+          <h2 id="angebot-h">Wir helfen bei Barriere-Freiheit im Internet.</h2>
+          <p>Barriere-Freiheit bedeutet: Viele Menschen können eine Website benutzen. Auch Menschen mit Behinderung. Auch ältere Menschen. Auch Menschen, die nur mit der Tastatur arbeiten. Auch Menschen, die schwierige Texte schlecht verstehen.</p>
+          <p>Ein Gesetz heißt <strong>BFSG</strong>. Das lange Wort ist: Barriere-Freiheits-Stärkungs-Gesetz. Das Gesetz gilt nicht für jede Website. Es kann aber für Online-Shops, Buchungen, Zahlungen oder Kunden-Konten wichtig sein.</p>
+          <p>Wir geben keine Rechts-Beratung. Wir prüfen die Technik und die Texte. Danach wissen Sie besser, was wichtig ist.</p>
+        </div>
+
+        <div class="scope reveal">
+          <div class="scope__col scope__col--yes">
+            <h3>Hier kann das BFSG wichtig sein</h3>
+            <ul>
+              <li>Sie verkaufen online etwas.</li>
+              <li>Kunden buchen online einen Termin.</li>
+              <li>Kunden bezahlen online.</li>
+              <li>Kunden haben ein Konto oder einen Login.</li>
+              <li>Kunden schließen online einen Vertrag ab.</li>
+            </ul>
+          </div>
+          <div class="scope__col scope__col--no">
+            <h3>Hier ist das BFSG oft weniger wichtig</h3>
+            <ul>
+              <li>Die Website informiert nur.</li>
+              <li>Die Website ist nur für andere Firmen.</li>
+              <li>Die Firma ist sehr klein und bietet nur Dienste an. Das muss man genau prüfen.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team" aria-labelledby="team-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Wer macht das?</p>
+          <h2 id="team-h">Erik macht die Technik. Annemarie macht die Sprache.</h2>
+          <p>Eine Website braucht gute Technik. Eine Website braucht auch gute Texte. Darum arbeiten wir zusammen.</p>
+        </div>
+        <div class="duo">
+          <div class="card reveal person">
+            <img class="person__photo" src="../assets/portrait-erik.webp" alt="" width="76" height="76" loading="lazy">
+            <div>
+              <p class="person__role">Technik</p>
+              <h3>Jan-Erik Andersen</h3>
+              <p>Er baut Websites seit vielen Jahren. Er prüft: Funktioniert die Website mit Tastatur? Ist der Fokus sichtbar? Haben Formulare gute Namen? Finden Hilfs-Programme die richtigen Informationen?</p>
+            </div>
+          </div>
+          <div class="card reveal person">
+            <img class="person__photo" src="../assets/portrait-annemarie.webp" alt="" width="76" height="76" loading="lazy">
+            <div>
+              <p class="person__role">Sprache</p>
+              <h3>Annemarie Andersen</h3>
+              <p>Sie schreibt Texte verständlich. Sie kennt Leichte Sprache und Einfache Sprache. Sie hilft bei Fehlermeldungen, Alternativ-Texten und klaren Erklärungen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="pruefung" aria-labelledby="pruefung-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Was prüfen wir?</p>
+          <h2 id="pruefung-h">Wir prüfen die wichtigen Stellen von Hand.</h2>
+          <p>Automatische Programme finden nur manche Fehler. Darum prüfen wir selbst. Wir benutzen die Website so wie echte Nutzer.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card reveal">
+            <h3>Tastatur</h3>
+            <p>Kann man alles ohne Maus bedienen?</p>
+          </div>
+          <div class="card reveal">
+            <h3>Fokus</h3>
+            <p>Sieht man immer, wo man gerade ist?</p>
+          </div>
+          <div class="card reveal">
+            <h3>Formulare</h3>
+            <p>Sind Felder und Fehler gut erklärt?</p>
+          </div>
+          <div class="card reveal">
+            <h3>Texte</h3>
+            <p>Sind wichtige Texte verständlich?</p>
+          </div>
+          <div class="card reveal">
+            <h3>Kontrast</h3>
+            <p>Kann man Schrift und Knöpfe gut sehen?</p>
+          </div>
+          <div class="card reveal">
+            <h3>Mobile Ansicht</h3>
+            <p>Funktioniert die Website auch auf dem Handy?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ablauf" aria-labelledby="ablauf-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Ablauf</p>
+          <h2 id="ablauf-h">So läuft die Arbeit ab.</h2>
+        </div>
+        <ol class="steps reveal">
+          <li><strong>Kurze Nachricht.</strong> Sie schicken uns Ihre Website.</li>
+          <li><strong>Kostenlose erste Einschätzung.</strong> Wir sagen: Sieht das BFSG hier wichtig aus?</li>
+          <li><strong>Startcheck.</strong> Wir prüfen Technik und Texte.</li>
+          <li><strong>Bericht.</strong> Sie bekommen eine Liste mit wichtigen Punkten.</li>
+          <li><strong>Umsetzung.</strong> Wenn Sie möchten, verbessern wir die Website.</li>
+          <li><strong>Erklärung.</strong> Sie bekommen eine ehrliche Erklärung zur Barriere-Freiheit.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="kosten" aria-labelledby="kosten-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kosten</p>
+          <h2 id="kosten-h">Der Startcheck kostet ab 1.900 Euro netto.</h2>
+          <p>Netto bedeutet: Die Mehrwert-Steuer kommt noch dazu.</p>
+          <p>Manchmal gibt es Förderung. Dann bezahlt ein Förder-Programm einen Teil der Kosten. Das ist aber nicht sicher. Das prüfen wir vor dem Angebot.</p>
+        </div>
+        <div class="callout reveal">
+          <p><strong>Beispiel für Mecklenburg-Vorpommern</strong></p>
+          <ul class="calc">
+            <li><span>Startcheck</span> <span>1.900 €</span></li>
+            <li><span>mögliche Förderung</span> <span>bis 1.520 €</span></li>
+            <li><span>eigener Anteil</span> <span>ab 380 €</span></li>
+          </ul>
+          <p style="margin-top:var(--space-2)">Das ist nur ein Beispiel. Es ist kein Versprechen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="keine-tricks" aria-labelledby="tricks-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Ehrlich</p>
+          <h2 id="tricks-h">Wir verkaufen keine falsche Sicherheit.</h2>
+        </div>
+        <div class="honest">
+          <blockquote class="reveal">
+            <h3>Kein Siegel für 100 Prozent.</h3>
+            <p>Barriere-Freiheit ist kein einfacher Stempel. Wir prüfen viel von Hand. Wenn etwas offen bleibt, schreiben wir es auf.</p>
+          </blockquote>
+          <blockquote class="reveal">
+            <h3>Kein Zauber-Knopf.</h3>
+            <p>Ein Knopf macht eine schlechte Website nicht barriere-frei. Die Website muss richtig gebaut sein.</p>
+          </blockquote>
+        </div>
+        <p class="reveal" style="margin-top:var(--space-3)">Diese Website hat selbst wichtige Hilfen: Tastatur-Bedienung, sichtbaren Fokus, dunkles Design, größere Schrift und verschiedene Sprach-Versionen.</p>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="fragen" aria-labelledby="fragen-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Fragen</p>
+          <h2 id="fragen-h">Häufige Fragen.</h2>
+        </div>
+        <div class="accordion reveal">
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+                Muss jede Website nach dem BFSG barriere-frei sein?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn">
+              <p>Nein. Das BFSG gilt nicht für jede Website. Wichtig sind oft Online-Shops, Buchungen, Zahlungen, Logins oder Verträge mit Verbrauchern.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+                Ist Leichte Sprache immer Pflicht?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn">
+              <p>Nein. Leichte Sprache ist nicht für jede private Website Pflicht. Sie kann aber sehr hilfreich sein. Klare Texte sind immer gut.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+                Bekomme ich eine Rechts-Beratung?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn">
+              <p>Nein. Wir prüfen Technik und Texte. Für eine sichere rechtliche Antwort brauchen Sie eine Rechts-Beratung.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+                Verschickt das Formular sofort eine Nachricht?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn">
+              <p>Nein. Ihr E-Mail-Programm öffnet sich. Sie schicken die E-Mail selbst ab.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="kontakt" aria-labelledby="kontakt-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="kontakt-h">Schreiben Sie uns.</h2>
+          <p>Schreiben Sie kurz, um welche Website es geht. Wir schauen uns die Lage an. Die erste Einschätzung ist kostenlos. Sie können auch direkt eine E-Mail schreiben: <a href="mailto:mail@andersen-webworks.de">mail@andersen-webworks.de</a>.</p>
+        </div>
+
+        <form id="kontakt-form" class="reveal" action="mailto:mail@andersen-webworks.de" method="post" enctype="text/plain" style="max-width:38rem">
+          <div class="field">
+            <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="f-name-err">
+            <span class="error-msg" id="f-name-err">Bitte schreiben Sie Ihren Namen.</span>
+          </div>
+          <div class="field">
+            <label for="f-mail">E-Mail <span class="req" aria-hidden="true">*</span></label>
+            <input id="f-mail" name="email" type="email" autocomplete="email" required aria-required="true" aria-describedby="f-mail-err">
+            <span class="error-msg" id="f-mail-err">Bitte schreiben Sie eine gültige E-Mail-Adresse.</span>
+          </div>
+          <div class="field">
+            <label for="f-url">Website</label>
+            <span class="hint" id="f-url-hint">Diese Angabe ist freiwillig.</span>
+            <input id="f-url" name="website" type="url" inputmode="url" placeholder="https://" aria-describedby="f-url-hint f-url-err">
+            <span class="error-msg" id="f-url-err">Bitte schreiben Sie die ganze Adresse. Zum Beispiel: https://example.de.</span>
+          </div>
+          <div class="field">
+            <label for="f-msg">Worum geht es? <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="f-msg" name="nachricht" required aria-required="true" aria-describedby="f-msg-err"></textarea>
+            <span class="error-msg" id="f-msg-err">Bitte schreiben Sie ein paar Wörter.</span>
+          </div>
+          <button class="btn btn--primary" type="submit">E-Mail vorbereiten</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#main" aria-label="BFSG Webcheck von Andersen Webworks">
+          <img class="brand__mark" src="../assets/logo.svg" alt="" width="42" height="28">
+          <span class="brand__name">Andersen Webworks
+            <span class="brand__line">BFSG Webcheck</span>
+          </span>
+        </a>
+        <p style="margin-top:var(--space-2);color:var(--text-muted)">Wir prüfen Barriere-Freiheit. Wir verbessern Technik und Texte.</p>
+      </div>
+      <nav aria-label="Seiten">
+        <h2 class="visually-hidden">Seiten</h2>
+        <ul class="footer-links">
+          <li><a href="#angebot">Angebot</a></li>
+          <li><a href="#pruefung">Prüfung</a></li>
+          <li><a href="#fragen">Fragen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="../">Deutsche Fachseite</a></li>
+          <li><a href="../en/" lang="en">English version</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Rechtliches">
+        <h2 class="visually-hidden">Rechtliches</h2>
+        <ul class="footer-links">
+          <li><a href="../barrierefreiheit/">Erklärung zur Barrierefreiheit</a></li>
+          <li><a href="https://andersen-webworks.de/impressum">Impressum</a></li>
+          <li><a href="https://andersen-webworks.de/datenschutz">Datenschutz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="../assets/site.js"></script>
+</body>
+</html>

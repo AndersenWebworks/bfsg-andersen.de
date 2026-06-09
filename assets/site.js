@@ -3,6 +3,30 @@
 (function () {
   "use strict";
 
+  var pageLang = (document.documentElement.getAttribute("lang") || "de").toLowerCase();
+  var english = pageLang.indexOf("en") === 0;
+  var text = english ? {
+    dark: "Turn on dark design",
+    light: "Turn on light design",
+    openMenu: "Open menu",
+    closeMenu: "Close menu",
+    invalidForm: "Please check the fields marked in red.",
+    mailStatus: "Your email program opens with a prefilled message. Please send it yourself.",
+    subjectPrefix: "BFSG enquiry from ",
+    noWebsite: "(not provided)",
+    messageLabel: "Message:\n"
+  } : {
+    dark: "Dunkles Design einschalten",
+    light: "Helles Design einschalten",
+    openMenu: "Menü öffnen",
+    closeMenu: "Menü schließen",
+    invalidForm: "Bitte prüfen Sie die rot markierten Felder.",
+    mailStatus: "Ihr E-Mail-Programm öffnet sich mit einer vorausgefüllten Nachricht. Bitte einmal selbst abschicken.",
+    subjectPrefix: "BFSG-Anfrage von ",
+    noWebsite: "(keine Angabe)",
+    messageLabel: "Anliegen:\n"
+  };
+
   /* ---- Dark-Mode-Umschalter (folgt System, merkt sich die Wahl) ---- */
   var themeBtn = document.querySelector(".theme-toggle");
   if (themeBtn) {
@@ -18,7 +42,7 @@
     var syncButton = function () {
       var dark = effectiveDark();
       themeBtn.setAttribute("aria-pressed", dark ? "true" : "false");
-      themeBtn.setAttribute("aria-label", dark ? "Helles Design einschalten" : "Dunkles Design einschalten");
+      themeBtn.setAttribute("aria-label", dark ? text.light : text.dark);
     };
     syncButton();
 
@@ -38,6 +62,45 @@
     }
   }
 
+  /* ---- Schriftgröße: Zusatzkomfort, Browser-Zoom bleibt voll erhalten ---- */
+  var textSizeButtons = document.querySelectorAll("[data-text-size-option]");
+  if (textSizeButtons.length) {
+    var rootForText = document.documentElement;
+
+    function textSizeAllowed(size) {
+      return size === "normal" || size === "large" || size === "xlarge";
+    }
+
+    function applyTextSize(size, persist) {
+      if (!textSizeAllowed(size)) size = "normal";
+      if (size === "normal") {
+        rootForText.removeAttribute("data-text-size");
+      } else {
+        rootForText.setAttribute("data-text-size", size);
+      }
+      Array.prototype.forEach.call(textSizeButtons, function (btn) {
+        var selected = btn.getAttribute("data-text-size-option") === size;
+        btn.setAttribute("aria-pressed", selected ? "true" : "false");
+      });
+      if (persist) {
+        try { localStorage.setItem("text-size", size); } catch (e) {}
+      }
+    }
+
+    var storedTextSize = "normal";
+    try {
+      var storedValue = localStorage.getItem("text-size");
+      if (textSizeAllowed(storedValue)) storedTextSize = storedValue;
+    } catch (e) {}
+    applyTextSize(storedTextSize, false);
+
+    Array.prototype.forEach.call(textSizeButtons, function (btn) {
+      btn.addEventListener("click", function () {
+        applyTextSize(btn.getAttribute("data-text-size-option"), true);
+      });
+    });
+  }
+
   /* ---- Mobile-Navigation ---- */
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");
@@ -46,7 +109,7 @@
     if (!toggle || !nav) return;
     nav.dataset.open = open ? "true" : "false";
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
-    toggle.setAttribute("aria-label", open ? "Menü schließen" : "Menü öffnen");
+    toggle.setAttribute("aria-label", open ? text.closeMenu : text.openMenu);
   }
 
   if (toggle && nav) {
@@ -83,6 +146,10 @@
   /* ---- Accordion (FAQ) ---- */
   var triggers = document.querySelectorAll(".accordion__trigger");
   Array.prototype.forEach.call(triggers, function (btn) {
+    var initialPanel = document.getElementById(btn.getAttribute("aria-controls"));
+    btn.setAttribute("aria-expanded", "false");
+    if (initialPanel) initialPanel.hidden = true;
+
     btn.addEventListener("click", function () {
       var expanded = btn.getAttribute("aria-expanded") === "true";
       var panel = document.getElementById(btn.getAttribute("aria-controls"));
@@ -115,7 +182,7 @@
   var form = document.getElementById("kontakt-form");
   if (form) {
     var status = document.getElementById("form-status");
-    var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    form.setAttribute("novalidate", "novalidate");
 
     function field(input) { return input.closest(".field"); }
 
@@ -125,6 +192,14 @@
       f.dataset.invalid = bad ? "true" : "false";
       input.setAttribute("aria-invalid", bad ? "true" : "false");
     }
+
+    Array.prototype.forEach.call(form.elements, function (input) {
+      if (!input || !input.addEventListener || !input.validity) return;
+      input.addEventListener("input", function () {
+        var hasContent = input.type === "textarea" || input.type === "text" ? input.value.trim().length > 0 : true;
+        if (input.validity.valid && hasContent) invalid(input, false);
+      });
+    });
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -140,30 +215,29 @@
         return ok;
       }
 
-      check(name, name.value.trim().length > 0);
-      check(mail, emailRe.test(mail.value.trim()));
-      check(msg, msg.value.trim().length > 0);
-      // Website optional: nur prüfen, wenn etwas eingetragen ist
-      check(url, url.value.trim() === "" || /^https?:\/\/.+/i.test(url.value.trim()));
+      check(name, name.validity.valid && name.value.trim().length > 0);
+      check(mail, mail.validity.valid);
+      check(url, url.validity.valid);
+      check(msg, msg.validity.valid && msg.value.trim().length > 0);
 
       if (firstBad) {
-        status.textContent = "Bitte prüfen Sie die rot markierten Felder.";
+        status.textContent = text.invalidForm;
         firstBad.focus();
         return;
       }
 
-      var betreff = "BFSG-Anfrage von " + name.value.trim();
+      var betreff = text.subjectPrefix + name.value.trim();
       var koerper =
         "Name: " + name.value.trim() + "\n" +
         "E-Mail: " + mail.value.trim() + "\n" +
-        "Website: " + (url.value.trim() || "(keine Angabe)") + "\n\n" +
-        "Anliegen:\n" + msg.value.trim() + "\n";
+        "Website: " + (url.value.trim() || text.noWebsite) + "\n\n" +
+        text.messageLabel + msg.value.trim() + "\n";
 
       var href = "mailto:mail@andersen-webworks.de" +
         "?subject=" + encodeURIComponent(betreff) +
         "&body=" + encodeURIComponent(koerper);
 
-      status.textContent = "Ihr E-Mail-Programm öffnet sich mit einer vorausgefüllten Nachricht. Bitte einmal selbst abschicken.";
+      status.textContent = text.mailStatus;
       window.location.href = href;
     });
   }

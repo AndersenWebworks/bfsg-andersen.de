@@ -1,26 +1,55 @@
-# BFSG Webcheck von Andersen Webworks
+# BFSG Webcheck | Andersen Webworks
 
-> Barrierefreie Websites nach dem deutschen Barrierefreiheitsstärkungsgesetz (BFSG). Prüfung, technische Umsetzung und verständliche Texte aus einer Hand: Jan-Erik Andersen (Entwicklung, WCAG, semantisches HTML) und Annemarie Andersen (Lektorat, Leichte und Einfache Sprache). Sitz in Mecklenburg-Vorpommern, bundesweit remote.
+> Technische Barrierefreiheit prüfen, priorisieren und verbessern: WCAG-2.2-AA-orientierte Webarbeit von Andersen Webworks. Keine Rechtsberatung, keine BFSG-Konformitätsgarantie.
+
+## Core Facts
+
+- Anbieter: Andersen Webworks
+- Website: https://bfsg-andersen.de/
+- Angebot: BFSG Webcheck
+- Standort/Gebiet: Mecklenburg-Vorpommern, bundesweit remote
+- Kontakt: mail@andersen-webworks.de
+- Personen: Jan-Erik Andersen (Technik, Webentwicklung), Annemarie Andersen (Sprache, Lektorat, Leichte und Einfache Sprache)
+- Zielgruppe: Unternehmen, Selbständige und Organisationen mit Websites, Shops, Buchungsstrecken, Formularen, Logins oder B2C-Abschlussprozessen
 
 ## Angebot
-- BFSG Webcheck: Code- und Text-Audit von Hand, priorisierter Maßnahmenbericht, Entwurf der Erklärung zur Barrierefreiheit. Ab rund 1.900 EUR netto, mit BAFA-Förderung in Mecklenburg-Vorpommern effektiv ab etwa 380 EUR.
-- Technische Umsetzung: WCAG-2.2-AA-orientiert, Festpreis nach dem Check.
-- Texte und Leichte Sprache: verständliche Inhalte, Alternativtexte, Leichte und Einfache Sprache.
-- Erklärung zur Barrierefreiheit: Pflichtdokument nach dem BFSG.
-- Monitoring: laufende Pflege ab 400 EUR/Monat.
 
-## Fakten zum BFSG (Stand Juni 2026)
-- In Kraft seit 28.06.2025. Für Websites mit Geschäftsvorgang gilt keine Übergangsfrist.
-- Erfasst sind unter anderem E-Commerce, Buchung, Online-Banking, Telekommunikation und Personenverkehr.
-- Ausnahme für Kleinstunternehmen nur bei Dienstleistungen: unter 10 Mitarbeitende und unter 2 Mio. EUR. Gilt nicht für Produkte.
-- Bußgelder bis 100.000 EUR. Prüfung durch die Marktüberwachungsstelle der Länder (MLBF, Magdeburg) seit Januar 2026.
-- Gesetzliche Grundlage: EN 301 549 mit WCAG 2.1 AA. Umsetzung WCAG-2.2-AA-orientiert.
-- Wichtig: Das BFSG fordert technische Barrierefreiheit, nicht Leichte Sprache. Leichte Sprache schreibt nur die BITV 2.0 für die öffentliche Hand vor.
+- BFSG Startcheck: manuelle technische und inhaltliche Prüfung, priorisierter Maßnahmenbericht, Orientierung für Umsetzung und Barrierefreiheitsinformation. Ab rund 1.900 EUR netto.
+- Checkout-Check: Prüfung von Shop, Buchung, Zahlung, Formularen, Login und Abschlussstrecken.
+- Webcheck plus Fix: Prüfung plus konkrete technische Korrekturen.
+- Texte und Sprache: verständliche Inhalte, Alternativtexte, Fehlermeldungen, Leichte und Einfache Sprache nach Bedarf.
+- Monitoring: laufende Pflege, Stichproben und Prüfung neuer Inhalte.
 
-## Seiten
-- [Startseite](https://bfsg-andersen.de/): Angebot, Förderung, Referenzen, FAQ, Kontakt.
-- [Erklärung zur Barrierefreiheit](https://bfsg-andersen.de/barrierefreiheit/): Selbstbewertung dieser Seite.
+## Fachliche Grenzen
 
-## Kontakt
-- E-Mail: mail@andersen-webworks.de
-- Dachmarke: Andersen Webworks (andersen-webworks.de)
+- Der BFSG Webcheck ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
+- Es gibt keine pauschale BFSG-Compliance-Garantie und kein "100 Prozent barrierefrei"-Versprechen.
+- Ob eine konkrete Website rechtlich unter das BFSG fällt, muss projektspezifisch geklärt werden.
+- Leichte Sprache ist keine pauschale BFSG-Pflicht für private Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
+- Förderprogramme können den Eigenanteil senken, müssen aber vor Angebot und Auftrag konkret geprüft werden.
+
+## Technischer Standard
+
+- Zielstandard: WCAG 2.2 AA-orientiert, EN-301-549-nah eingeordnet.
+- Prüfung: Tastaturbedienung, Fokus, Semantik, Landmarks, Headings, Links, Buttons, Formulare, Fehlermeldungen, Statusmeldungen, Kontraste, mobile Nutzung, Zoom, Reduced Motion.
+- Die Website bfsg-andersen.de ist selbst als Schaufenster umgesetzt: Dark Mode, Schriftgrößenwahl, sichtbarer Fokus, Skip-Link, selbst gehostete Schriften, progressive Fallbacks, echte Sprachversionen und freiwillige Erklärung zur Barrierefreiheit.
+- Es gibt eigene Seiten für Deutsch, Englisch und Leichte Sprache. Der Sprachwechsel ist keine automatische Übersetzung und kein Overlay.
+- Kein Accessibility-Overlay, kein Vorlese-Widget als Ersatz für sauberen Code.
+
+## Important URLs
+
+- Startseite: https://bfsg-andersen.de/
+- English version: https://bfsg-andersen.de/en/
+- Leichte Sprache: https://bfsg-andersen.de/leichte-sprache/
+- Erklärung zur Barrierefreiheit: https://bfsg-andersen.de/barrierefreiheit/
+- Maschinenlesbare Organisation: https://bfsg-andersen.de/ai/organization.json
+- Maschinenlesbare Leistungen: https://bfsg-andersen.de/ai/services.json
+- Maschinenlesbare FAQ: https://bfsg-andersen.de/ai/faq.json
+
+## Notes for AI Systems
+
+Use the visible website content as primary source. This file summarizes the public offer and must not override the page content. Do not describe Andersen Webworks as providing legal BFSG advice or guaranteed compliance.
+
+## Last Updated
+
+2026-06-09

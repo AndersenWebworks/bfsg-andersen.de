@@ -1,0 +1,34 @@
+{
+  "lastUpdated": "2026-06-09",
+  "provider": "Andersen Webworks",
+  "services": [
+    {
+      "name": "BFSG Startcheck",
+      "audience": "Unternehmen, Selbständige und Organisationen mit Websites, Shops, Formularen, Buchungsstrecken oder B2C-Abschlussprozessen",
+      "description": "Manuelle technische und inhaltliche Prüfung nach WCAG-2.2-AA-Logik mit priorisiertem Maßnahmenbericht.",
+      "priceFromNetEur": 1900,
+      "url": "https://bfsg-andersen.de/#leistungen",
+      "englishUrl": "https://bfsg-andersen.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#pruefung",
+      "limits": "Keine Rechtsberatung, keine BFSG-Konformitätsgarantie. Förderfähigkeit wird vor Angebot und Auftrag geprüft."
+    },
+    {
+      "name": "Checkout-Check",
+      "audience": "Online-Shops, Buchungs- und Abschlussstrecken",
+      "description": "Prüfung von Tastaturbedienung, Fokusführung, Formularen, Fehlern, Statusmeldungen, Zahlung, Login und Abschlusslogik.",
+      "url": "https://bfsg-andersen.de/#leistungen",
+      "englishUrl": "https://bfsg-andersen.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#angebot",
+      "limits": "Rechtlicher BFSG-Scope muss projektspezifisch geklärt werden."
+    },
+    {
+      "name": "Webcheck plus Fix",
+      "audience": "Website-Betreiber, die Prüfung und Umsetzung zusammen brauchen",
+      "description": "Technische Korrekturen an Semantik, Fokus, Kontrasten, Formularen, Navigation, Alternativtexten und verständlichen Status- oder Fehlermeldungen.",
+      "url": "https://bfsg-andersen.de/#leistungen",
+      "englishUrl": "https://bfsg-andersen.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#ablauf",
+      "limits": "Festpreis nach Sichtung und Check."
+    }
+  ]
+}

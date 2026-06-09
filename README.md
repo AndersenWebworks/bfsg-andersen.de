@@ -1,6 +1,6 @@
 # bfsg-andersen.de
 
-Landingpage für den **BFSG Webcheck** von Andersen Webworks. Barrierefreie Websites nach dem Barrierefreiheitsstärkungsgesetz: Prüfung, Umsetzung und verständliche Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, Sprache).
+Landingpage für den **BFSG Webcheck** von Andersen Webworks. Technische Barrierefreiheit prüfen, priorisieren und verbessern: Technik und Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, Sprache). Keine Rechtsberatung, keine pauschale BFSG-Konformitätsgarantie.
 
 ## Struktur
 
@@ -8,8 +8,13 @@ Landingpage für den **BFSG Webcheck** von Andersen Webworks. Barrierefreie Webs
 .
 ├── index.html              Landingpage
 ├── llms.txt                KI-/Agent-Sichtbarkeit (GEO/AVO)
+├── robots.txt              Crawler-Regeln und Sitemap-Hinweis
+├── sitemap.xml             Indexierbare Seiten
+├── ai/                     Maschinenlesbare Zusammenfassungen
 ├── css/                    tokens, base, components, sections
-├── assets/                 Logo, Favicon, Hero-Bild, Portraits, site.js
+├── assets/                 Logo, Favicon, site.js
+├── en/                     vollständige englische Angebotsseite
+├── leichte-sprache/        eigene Fassung in Leichter Sprache
 └── barrierefreiheit/       Erklärung zur Barrierefreiheit der LP
 ```
 
@@ -30,4 +35,4 @@ GitHub Pages. Kein automatischer Live-Versand, keine externen Trigger.
 
 ## Standards
 
-WCAG-2.2-AA-orientiert, manuell getestet. Die Seite ist ihr eigenes Schaufenster: Sie erfüllt, was sie verkauft. Details in `.claude/CLAUDE.md`.
+WCAG-2.2-AA-orientiert, manuell geprüft. Die Seite ist ihr eigenes Schaufenster: Tastaturbedienung, sichtbarer Fokus, verständliche Fehler, Dark Mode, Schriftgrößen, Reduced Motion, eigene Sprachversionen, selbst gehostete Schriften und progressive Fallbacks. Details in `.claude/CLAUDE.md`.

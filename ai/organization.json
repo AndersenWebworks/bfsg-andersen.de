@@ -1,0 +1,44 @@
+{
+  "lastUpdated": "2026-06-09",
+  "name": "Andersen Webworks",
+  "url": "https://bfsg-andersen.de/",
+  "type": "ProfessionalService",
+  "areaServed": "Deutschland",
+  "baseRegion": "Mecklenburg-Vorpommern",
+  "contactEmail": "mail@andersen-webworks.de",
+  "languageVersions": [
+    {
+      "name": "Deutsch",
+      "url": "https://bfsg-andersen.de/",
+      "language": "de"
+    },
+    {
+      "name": "English",
+      "url": "https://bfsg-andersen.de/en/",
+      "language": "en"
+    },
+    {
+      "name": "Leichte Sprache",
+      "url": "https://bfsg-andersen.de/leichte-sprache/",
+      "language": "de-x-easy"
+    }
+  ],
+  "people": [
+    {
+      "name": "Jan-Erik Andersen",
+      "role": "Technik, Webentwicklung, technische Barrierefreiheit"
+    },
+    {
+      "name": "Annemarie Andersen",
+      "role": "Sprache, Lektorat, Leichte und Einfache Sprache"
+    }
+  ],
+  "sameAs": [
+    "https://andersen-webworks.de/"
+  ],
+  "notes": [
+    "Der BFSG Webcheck ist eine technische Prüfung und Umsetzungshilfe.",
+    "Die Website hat eigene Sprachversionen für Deutsch, Englisch und Leichte Sprache. Der Sprachwechsel ist keine automatische Übersetzung.",
+    "Andersen Webworks bietet keine Rechtsberatung und keine BFSG-Konformitätsgarantie."
+  ]
+}
