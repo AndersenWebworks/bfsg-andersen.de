@@ -36,7 +36,7 @@
 
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="brand" href="../" aria-label="BFSG Webcheck von Andersen Webworks, zur Startseite">
+      <a class="brand" href="../index.html" aria-label="BFSG Webcheck von Andersen Webworks, zur Startseite">
         <img class="brand__mark" src="../assets/logo.svg" alt="" width="42" height="28">
         <span class="brand__name">Andersen Webworks
           <span class="brand__line">BFSG Webcheck</span>
@@ -45,14 +45,14 @@
       <div class="site-header__right">
         <nav class="site-nav site-nav--static" aria-label="Hauptnavigation">
           <ul>
-            <li><a href="../">Zurück zur Startseite</a></li>
+            <li><a href="../index.html">Zurück zur Startseite</a></li>
           </ul>
         </nav>
         <nav class="language-switcher" aria-label="Sprachversionen">
           <ul>
-            <li><a href="../" lang="de">Deutsch</a></li>
-            <li><a href="../en/" lang="en">English</a></li>
-            <li><a href="../leichte-sprache/" lang="de">Leichte Sprache</a></li>
+            <li><a href="../index.html" lang="de">Deutsch</a></li>
+            <li><a href="../en/index.html" lang="en">English</a></li>
+            <li><a href="../leichte-sprache/index.html" lang="de">Leichte Sprache</a></li>
           </ul>
         </nav>
         <div class="header-actions" role="group" aria-label="Darstellung">
@@ -90,7 +90,7 @@
           <li>Auf- und zuklappbare Elemente melden ihren Zustand über <code>aria-expanded</code>.</li>
           <li>Farbkontraste sind über die Design-Tokens auf hohe Lesbarkeit ausgelegt; Text, Bedienelemente und Fokus nutzen getrennte Kontrastfarben.</li>
           <li>Das Formular hat echte Beschriftungen, kennzeichnet Pflichtfelder und zeigt verständliche Fehlermeldungen, nicht nur über Farbe.</li>
-          <li>Bewegungen und Einblendungen werden bei aktivierter Systemeinstellung „Bewegung reduzieren" abgeschaltet, Inhalte sind dann sofort sichtbar.</li>
+          <li>Bewegungen sind auf ein Minimum reduziert. Inhalte sind ohne Scroll-Animation sofort sichtbar.</li>
           <li>Helles und dunkles Design folgen der Systemeinstellung und lassen sich über einen Schalter im Kopfbereich umstellen. Die Wahl wird gespeichert.</li>
           <li>Die Schriftgröße lässt sich im Kopfbereich auf normal, groß und sehr groß stellen. Die Einstellung ergänzt Browser-Zoom und ersetzt ihn nicht.</li>
           <li>Die Angebotsseite ist in deutscher Sprache, in englischer Sprache und in Leichter Sprache vorhanden. Der Sprachwechsel führt auf echte Seiten mit eigenen Texten.</li>
@@ -102,8 +102,8 @@
         <h2>Was bewusst nicht eingebaut ist</h2>
         <ul>
           <li>Kein Accessibility-Overlay. Solche Widgets reparieren keine schlechte Semantik, keine kaputte Fokusführung und keine Formularfehler. Barrierefreiheit gehört in den Code.</li>
-          <li>Kein falscher Leichte-Sprache-Schalter. Die Seite hat jetzt eine eigene Fassung in <a href="../leichte-sprache/">Leichter Sprache</a>. Sie ist ein eigener Text, kein Knopf, der normale Texte automatisch umformt.</li>
-          <li>Eine eigene <a href="../en/" lang="en">englische Version</a> ist ebenfalls vorhanden. Die Sprachversionen sind als echte Seiten verlinkt und im Kopfbereich erreichbar.</li>
+          <li>Kein falscher Leichte-Sprache-Schalter. Die Seite hat jetzt eine eigene Fassung in <a href="../leichte-sprache/index.html">Leichter Sprache</a>. Sie ist ein eigener Text, kein Knopf, der normale Texte automatisch umformt.</li>
+          <li>Eine eigene <a href="../en/index.html" lang="en">englische Version</a> ist ebenfalls vorhanden. Die Sprachversionen sind als echte Seiten verlinkt und im Kopfbereich erreichbar.</li>
           <li>Kein Vorlese-Widget. Screenreader, Browserfunktionen und Betriebssysteme sind dafür zuverlässiger als ein zusätzlicher Website-Player.</li>
           <li>Kein „100 Prozent barrierefrei"-Siegel. Diese Seite ist manuell geprüft und verbessert, aber nicht extern zertifiziert.</li>
         </ul>
@@ -121,7 +121,7 @@
         <h2>Bekannte Einschränkungen</h2>
         <ul>
           <li>Diese Erklärung beruht auf einer Selbstbewertung. Es gab keine Prüfung durch eine externe Stelle und kein Zertifikat.</li>
-          <li>Die sanfte Einblendung beim Scrollen ist reine Komfortfunktion. Ohne JavaScript erscheinen alle Inhalte sofort, die Seite bleibt voll nutzbar.</li>
+          <li>Die früher geplante Einblendung beim Scrollen ist abgeschaltet, damit Inhalte auch in Vollseiten-Screenshots, Suchsystemen und assistiven Umgebungen sofort sichtbar bleiben.</li>
           <li>Das Kontaktformular öffnet einen vorbereiteten Entwurf in Ihrem E-Mail-Programm und verschickt nichts von allein. Ohne JavaScript greift die einfache Mailfunktion des Browsers oder Sie schreiben uns direkt per E-Mail.</li>
           <li>Die Links zu Impressum und Datenschutz führen auf andersen-webworks.de.</li>
         </ul>
@@ -138,7 +138,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p style="margin:0;color:var(--text-muted)">Andersen Webworks – BFSG Webcheck. <a href="../">Zurück zur Startseite</a></p>
+      <p style="margin:0;color:var(--text-muted)">Andersen Webworks – BFSG Webcheck. <a href="../index.html">Zurück zur Startseite</a></p>
     </div>
   </footer>
   <script src="../assets/site.js"></script>

@@ -118,9 +118,9 @@
         </nav>
         <nav class="language-switcher" aria-label="Sprachversionen">
           <ul>
-            <li><a href="./" aria-current="page" lang="de">Deutsch</a></li>
-            <li><a href="en/" lang="en">English</a></li>
-            <li><a href="leichte-sprache/" lang="de">Leichte Sprache</a></li>
+            <li><a href="index.html" aria-current="page" lang="de">Deutsch</a></li>
+            <li><a href="en/index.html" lang="en">English</a></li>
+            <li><a href="leichte-sprache/index.html" lang="de">Leichte Sprache</a></li>
           </ul>
         </nav>
         <div class="header-actions" role="group" aria-label="Darstellung">
@@ -147,7 +147,7 @@
     <!-- HERO -->
     <section class="hero">
       <div class="container hero__grid">
-        <div class="reveal">
+        <div class="reveal hero__copy">
           <p class="eyebrow">BFSG Webcheck</p>
           <h1>Technische Barrierefreiheit prüfen, <span class="accent">priorisieren</span> und verbessern.</h1>
           <p class="lede">Seit dem 28. Juni 2025 gelten die BFSG-Anforderungen für bestimmte Produkte und Dienstleistungen, etwa E-Commerce, Buchung, Zahlung, Banking oder andere B2C-Abschlussprozesse. Wir klären den technischen Scope, prüfen Ihre Website von Hand und setzen die wichtigen Punkte um: Tastatur, Fokus, Semantik, Formulare, verständliche Fehler und klare Inhalte. Kein Rechtsgutachten, keine Scheinsicherheit.</p>
@@ -158,19 +158,15 @@
           <p class="hero__trust">Webentwicklung seit 1999, bundesweit remote, aus Mecklenburg-Vorpommern.</p>
         </div>
 
-        <div class="reveal hero__visual">
-          <div class="combo" aria-hidden="true">
-            <div class="combo__half combo__half--code">
-              <span class="combo__label">Technik</span>
-              <code>&lt;<span class="tag">button</span> aria-expanded=<br>&nbsp;&nbsp;"false"&gt;<br>&nbsp;&nbsp;Menü<br>&lt;/<span class="tag">button</span>&gt;</code>
-            </div>
-            <div class="combo__half combo__half--text">
-              <span class="combo__label">Sprache</span>
-              <p>„Klicken Sie auf den Knopf. Dann öffnet sich das Menü."</p>
-            </div>
+        <figure class="reveal hero__visual">
+          <img class="hero__image" src="assets/bfsg-webcheck-hero.png" alt="Notebook mit Barrierefreiheits-Checkliste, Formularprüfung und Prüfbericht" width="1800" height="1024">
+          <div class="proof-card" aria-label="Prüfschwerpunkte">
+            <span>Tastatur</span>
+            <span>Formulare</span>
+            <span>Prioritäten</span>
           </div>
-          <p class="combo__caption">Links die Technik, die Maschinen und Screenreader verstehen. Rechts die Sprache, die Menschen verstehen. Beides von uns.</p>
-        </div>
+          <figcaption class="combo__caption">Kein abstrakter Gesetzestext: Wir prüfen konkrete Bedienwege, dokumentieren die Barrieren und sortieren die Korrekturen nach Wirkung.</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -294,7 +290,7 @@
 
         <div class="reveal" style="margin-top:var(--space-3);max-width:42rem">
           <p><strong>Leichte Sprache oder Einfache Sprache?</strong> Das sind zwei Stufen. Leichte Sprache folgt einem festen Regelwerk und richtet sich an Menschen mit Lernschwierigkeiten, Demenz oder geringen Deutschkenntnissen. Einfache Sprache nach DIN 8581-1 ist etwas freier und erreicht eine breite Leserschaft. Wir sagen Ihnen, was zu Ihrem Publikum passt. Pflicht ist Leichte Sprache nur für Behörden (BITV 2.0). Für Sie ist sie freiwillig, und genau deshalb ein Vorsprung.</p>
-          <p>Auf dieser Website ist der Schalter deshalb jetzt echt: Die <a href="leichte-sprache/">Leichte-Sprache-Fassung</a> ist eine eigene Seite mit eigener Textstruktur. Die <a href="en/" lang="en">englische Version</a> ist ebenfalls eine eigene Seite, keine automatische Browser-Übersetzung.</p>
+          <p>Auf dieser Website ist der Schalter deshalb jetzt echt: Die <a href="leichte-sprache/index.html">Leichte-Sprache-Fassung</a> ist eine eigene Seite mit eigener Textstruktur. Die <a href="en/index.html" lang="en">englische Version</a> ist ebenfalls eine eigene Seite, keine automatische Browser-Übersetzung.</p>
           <p>Geschrieben von Annemarie, nicht von einer KI auf Knopfdruck. Sie hat die Leichte Sprache für den Deutschen Zukunftspreis übertragen, geprüft durch das Büro für Leichte Sprache Iserlohn, und für den Förderleitfaden des Bundesfinanzministeriums. Wo Sie KI einsetzen, prüfen wir die Ergebnisse nach, denn KI hält die Regeln nicht zuverlässig ein.</p>
         </div>
       </div>
@@ -425,7 +421,7 @@
             <p>Manche drohen mit Bußgeldern für Dinge, die so nicht im Gesetz stehen, etwa Leichte Sprache als angebliche BFSG-Pflicht. Wir sagen Ihnen, was das BFSG wirklich verlangt und was darüber hinaus sinnvoll ist. Den Unterschied kennen wir genau.</p>
           </blockquote>
         </div>
-        <p class="reveal" style="margin-top:var(--space-3)">Diese Seite ist selbst der erste Prüfstein: Tastatur, Fokus, Kontrast, Dark Mode, Schriftgrößen, Reduced Motion und eine ehrliche <a href="barrierefreiheit/">Erklärung zur Barrierefreiheit</a>.</p>
+        <p class="reveal" style="margin-top:var(--space-3)">Diese Seite ist selbst der erste Prüfstein: Tastatur, Fokus, Kontrast, Dark Mode, Schriftgrößen, Reduced Motion und eine ehrliche <a href="barrierefreiheit/index.html">Erklärung zur Barrierefreiheit</a>.</p>
       </div>
     </section>
 
@@ -478,7 +474,7 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn">
-              <p>Für das BFSG nicht pauschal. Leichte Sprache verlangt nur die BITV 2.0 für die öffentliche Hand. Verständliche Inhalte und Alternativtexte sind aber Teil jeder barrierefreien Seite, und da hilft Annemarie. Diese Seite hat deshalb eine echte <a href="leichte-sprache/">Leichte-Sprache-Fassung</a>, nicht nur einen Schalter mit derselben schweren Seite dahinter.</p>
+              <p>Für das BFSG nicht pauschal. Leichte Sprache verlangt nur die BITV 2.0 für die öffentliche Hand. Verständliche Inhalte und Alternativtexte sind aber Teil jeder barrierefreien Seite, und da hilft Annemarie. Diese Seite hat deshalb eine echte <a href="leichte-sprache/index.html">Leichte-Sprache-Fassung</a>, nicht nur einen Schalter mit derselben schweren Seite dahinter.</p>
             </div>
           </div>
           <div class="accordion__item">
@@ -564,14 +560,14 @@
           <li><a href="#foerderung">Förderung</a></li>
           <li><a href="#faq">Häufige Fragen</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
-          <li><a href="en/" lang="en">English version</a></li>
-          <li><a href="leichte-sprache/">Leichte Sprache</a></li>
+          <li><a href="en/index.html" lang="en">English version</a></li>
+          <li><a href="leichte-sprache/index.html">Leichte Sprache</a></li>
         </ul>
       </nav>
       <nav aria-label="Rechtliches">
         <h2 class="visually-hidden">Rechtliches</h2>
         <ul class="footer-links">
-          <li><a href="barrierefreiheit/">Erklärung zur Barrierefreiheit</a></li>
+          <li><a href="barrierefreiheit/index.html">Erklärung zur Barrierefreiheit</a></li>
           <li><a href="https://andersen-webworks.de/impressum">Impressum</a></li>
           <li><a href="https://andersen-webworks.de/datenschutz">Datenschutz</a></li>
         </ul>
