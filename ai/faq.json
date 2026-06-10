@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "sourceUrl": "https://bfsg-andersen.de/#faq",
   "items": [
     {
       "question": "Betrifft das BFSG meine Website überhaupt?",
-      "answer": "Wenn Verbraucher über die Seite kaufen, buchen, bezahlen oder ein Konto nutzen, ist der BFSG-Scope deutlich näher. Reine Informationsseiten ohne Geschäftsvorgang fallen meist nicht darunter. Der konkrete Scope muss projektspezifisch geklärt werden."
+      "answer": "Wenn Verbraucher über die Seite kaufen, buchen, bezahlen oder ein Konto nutzen, ist ein BFSG-naher Anwendungsbereich deutlich wahrscheinlicher. Reine Informationsseiten ohne Geschäftsvorgang fallen meist nicht darunter. Der konkrete Anwendungsbereich muss projektspezifisch geklärt werden."
     },
     {
       "question": "Gibt es eine Ausnahme für kleine Unternehmen?",
-      "answer": "Bei Dienstleistungen gibt es eine Ausnahme für Kleinstunternehmen mit weniger als 10 Mitarbeitenden und höchstens 2 Millionen Euro Jahresumsatz oder Bilanzsumme. Für Produkte gilt diese Ausnahme nicht pauschal."
+      "answer": "Bei Dienstleistungen gibt es eine Ausnahme für Kleinstunternehmen mit weniger als 10 Beschäftigten und höchstens 2 Millionen Euro Jahresumsatz oder Bilanzsumme. Für Produkte gilt diese Ausnahme nicht pauschal."
     },
     {
       "question": "Welcher Standard gilt technisch?",
-      "answer": "Andersen Webworks arbeitet WCAG-2.2-AA-orientiert und ordnet EN 301 549 mit ein. Das ist ein technischer Zielstandard, keine Zertifizierung."
+      "answer": "Rechtlicher Rahmen sind BFSG und BFSGV. EN 301 549 und WCAG sind technische Bezugspunkte. Andersen Webworks arbeitet WCAG-2.2-AA-orientiert. Das ist ein technischer Zielstandard, keine Zertifizierung."
     },
     {
       "question": "Brauche ich Leichte Sprache?",
-      "answer": "Leichte Sprache ist keine pauschale BFSG-Pflicht für private Websites. Verständliche Texte, klare Fehler und gut strukturierte Informationen sind trotzdem Teil barrierefreier Kommunikation. Diese Website hat eine eigene Leichte-Sprache-Fassung unter https://bfsg-andersen.de/leichte-sprache/."
+      "answer": "Leichte Sprache ist keine pauschale BFSG-Pflicht für private Websites. Für öffentliche Stellen gibt es Vorgaben in der BITV 2.0. Verständliche Texte, klare Fehler und gut strukturierte Informationen sind trotzdem Teil barrierefreier Kommunikation. Diese Website hat eine eigene Leichte-Sprache-Fassung unter https://bfsg-andersen.de/leichte-sprache/."
     },
     {
       "question": "Gibt es Sprachversionen?",
@@ -28,7 +28,7 @@
     },
     {
       "question": "Was kostet der Startcheck?",
-      "answer": "Der BFSG Startcheck beginnt bei rund 1.900 Euro netto. Förderprogramme können den Eigenanteil senken, müssen aber vor Angebot und Auftrag konkret geprüft werden."
+      "answer": "Der BFSG Startcheck beginnt bei rund 1.900 Euro netto. Förderprogramme können den Eigenanteil senken, wenn Förderfähigkeit, Antrag und Verfahren passen. Das wird vor Angebot und Start konkret geprüft."
     },
     {
       "question": "Was ist die Erklärung zur Barrierefreiheit?",

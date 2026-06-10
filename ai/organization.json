@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "name": "Andersen Webworks",
   "url": "https://bfsg-andersen.de/",
   "type": "ProfessionalService",
@@ -39,6 +39,13 @@
   "notes": [
     "Der BFSG Webcheck ist eine technische Prüfung und Umsetzungshilfe.",
     "Die Website hat eigene Sprachversionen für Deutsch, Englisch und Leichte Sprache. Der Sprachwechsel ist keine automatische Übersetzung.",
-    "Andersen Webworks bietet keine Rechtsberatung und keine BFSG-Konformitätsgarantie."
+    "Andersen Webworks bietet keine Rechtsberatung und keine BFSG-Konformitätsgarantie.",
+    "Rechtlicher Rahmen für BFSG-nahe Dienste sind BFSG und BFSGV; EN 301 549 und WCAG sind technische Bezugspunkte."
+  ],
+  "publicSources": [
+    "https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/barrierefreiheitsstaerkungsgesetz/barrierefreiheitsstaerkungsgesetz-node.html",
+    "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/barrierefreiheitsstaerkungsgesetz.html",
+    "https://www.mlbf-barrierefrei.de/",
+    "https://www.w3.org/WAI/standards-guidelines/wcag/"
   ]
 }

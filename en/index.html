@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BFSG Webcheck | Andersen Webworks</title>
-  <meta name="description" content="BFSG Webcheck by Andersen Webworks: technical accessibility checks, prioritisation and implementation for websites, shops, forms and checkout flows.">
+  <meta name="description" content="BFSG Webcheck by Andersen Webworks: technical accessibility checks, prioritization and implementation for websites, shops, forms and checkout flows.">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8f5">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171b19">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
@@ -17,6 +17,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="BFSG Webcheck | Technical accessibility for German websites">
   <meta property="og:description" content="WCAG-2.2-AA-oriented accessibility checks and implementation by Andersen Webworks. No legal opinion, no false certainty.">
+  <meta property="og:url" content="https://bfsg-andersen.de/en/">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="de_DE">
 
@@ -64,11 +65,32 @@
         "@id": "https://bfsg-andersen.de/#bfsg-webcheck",
         "name": "BFSG Webcheck",
         "serviceType": "Technical accessibility check and implementation for websites",
-        "description": "WCAG-2.2-AA-oriented accessibility review, prioritisation and technical improvement for websites, shops, booking flows, forms and online checkout processes. No legal advice and no BFSG compliance guarantee.",
+        "description": "WCAG-2.2-AA-oriented accessibility review, prioritization and technical improvement for websites, shops, booking flows, forms and online checkout processes. No legal advice and no BFSG compliance guarantee.",
         "provider": { "@id": "https://bfsg-andersen.de/#organization" },
         "areaServed": "DE",
         "url": "https://bfsg-andersen.de/en/"
       }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "en-US",
+    "mainEntity": [
+      { "@type": "Question", "name": "Does the BFSG apply to my website?",
+        "acceptedAnswer": { "@type": "Answer", "text": "If consumers can buy, book, pay, log in or complete a contract-related process on your website, the BFSG scope is closer. Pure information pages usually have a lower risk. The legal question must be clarified separately." } },
+      { "@type": "Question", "name": "Is there an exception for small businesses?",
+        "acceptedAnswer": { "@type": "Answer", "text": "For services, microenterprises can be exempt if they have fewer than 10 employees and no more than EUR 2 million in annual turnover or balance sheet total. Both conditions must apply. This exception does not apply to products in the same way." } },
+      { "@type": "Question", "name": "Which technical standard do you use?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The legal framework is the BFSG and BFSGV. EN 301 549 and WCAG are technical reference points. We work toward WCAG 2.2 AA because WCAG 2.2 adds newer success criteria. This is a target standard, not a certificate." } },
+      { "@type": "Question", "name": "Do I need Easy Read content?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Easy Read is not a blanket BFSG requirement for private websites. German public-sector websites have separate requirements under BITV 2.0. Clear content, alternative text and understandable errors are still part of accessible communication." } },
+      { "@type": "Question", "name": "What does the start check cost?",
+        "acceptedAnswer": { "@type": "Answer", "text": "The BFSG Startcheck starts at about EUR 1,900 before VAT. Funding may reduce the out-of-pocket cost if the program, application and formal requirements fit. We check this before proposal and project start." } },
+      { "@type": "Question", "name": "What is accessibility information?",
+        "acceptedAnswer": { "@type": "Answer", "text": "It describes the checked state, known limitations and a contact channel for accessibility feedback. It must not promise more than the website actually delivers." } }
     ]
   }
   </script>
@@ -92,6 +114,7 @@
             <li><a href="#language">Language</a></li>
             <li><a href="#funding">Funding</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <li><a href="#sources">Sources</a></li>
             <li><a class="btn btn--primary" href="#contact">Free check</a></li>
           </ul>
         </nav>
@@ -127,8 +150,8 @@
       <div class="container hero__grid">
         <div class="reveal hero__copy">
           <p class="eyebrow">BFSG Webcheck</p>
-          <h1>Check, prioritise and improve <span class="accent">technical accessibility</span>.</h1>
-          <p class="lede">Since 28 June 2025, German BFSG requirements apply to certain products and services, including e-commerce, booking, payment, banking and other B2C online completion processes. We clarify the technical scope, check your website manually and fix the important parts: keyboard use, focus, semantics, forms, understandable errors and clear content. No legal opinion. No false certainty.</p>
+          <h1>Check, prioritize and improve <span class="accent">technical accessibility</span>.</h1>
+          <p class="lede">Since June 28, 2025, German BFSG requirements have applied to certain products and services, including e-commerce, booking, payment, banking and other B2C online completion processes. We clarify the technical scope, check your website manually and fix the important parts: keyboard use, focus, semantics, forms, understandable errors and clear content. No legal opinion. No false certainty.</p>
           <div class="hero__cta">
             <a class="btn btn--primary" href="#contact">Ask for a free first assessment</a>
             <a class="btn btn--secondary" href="#services">What we check</a>
@@ -143,7 +166,7 @@
             <span>Forms</span>
             <span>Priorities</span>
           </div>
-          <figcaption class="combo__caption">No abstract legal theatre: we inspect real user journeys, document barriers and sort fixes by impact.</figcaption>
+          <figcaption class="combo__caption">No abstract legal theater: we inspect real user journeys, document barriers and sort fixes by impact.</figcaption>
         </figure>
       </div>
     </section>
@@ -164,14 +187,14 @@
         <div class="section-head reveal">
           <p class="eyebrow">Why it matters</p>
           <h2 id="problem-h">This is not just about obligations. It is about customers who otherwise cannot finish the journey.</h2>
-          <p>Accessibility is not a niche topic. Germany has millions of people with disabilities, and many more with reduced vision, unsteady hands, hearing issues or temporary limitations. If your shop, booking flow or form is hard to use, people leave before they buy.</p>
-          <p>The German Market Surveillance Authority of the Federal States monitors BFSG compliance nationwide. The more immediate risk is often simpler: abandoned purchases, support questions, complaints and unnecessary friction.</p>
+          <p>Accessibility is not a niche topic. According to the German Federal Statistical Office, 7.9 million people in Germany had a severe disability at the end of 2023, 9.3 percent of the population. Many more live with reduced vision, unsteady hands, hearing issues or temporary limitations. In 2024, just over 19 million people in Germany were 65 or older. If your shop, booking flow or form is hard to use, people leave before they buy.</p>
+          <p>The <a href="https://www.mlbf-barrierefrei.de/">Market Surveillance Authority of the German States for the Accessibility of Products and Services</a> monitors compliance with statutory BFSG requirements nationwide. The more immediate business risk is often simpler: abandoned purchases, support questions, complaints and unnecessary friction.</p>
         </div>
 
         <div class="stats reveal">
           <div class="stat">
             <div class="stat__num">100,000 €</div>
-            <p class="stat__label">possible maximum fine under the BFSG</p>
+            <p class="stat__label">possible maximum fine for certain BFSG violations</p>
           </div>
           <div class="stat">
             <div class="stat__num">WCAG 2.2</div>
@@ -185,7 +208,7 @@
 
         <div class="scope reveal">
           <div class="scope__col scope__col--yes">
-            <h3>Likely relevant</h3>
+            <h3>Often BFSG-related</h3>
             <ul>
               <li>Online shops and purchase flows</li>
               <li>Booking and appointment flows</li>
@@ -195,15 +218,16 @@
             </ul>
           </div>
           <div class="scope__col scope__col--no">
-            <h3>Often less relevant</h3>
+            <h3>Often not, or only partly, BFSG-related</h3>
             <ul>
               <li>Pure information pages without a transaction</li>
               <li>B2B offers without consumer business</li>
-              <li>Micro-enterprises for services: fewer than 10 employees and under 2 million euros in annual turnover or balance sheet total. This exception does not apply to products.</li>
+              <li>Microenterprises for services: fewer than 10 employees and no more than EUR 2 million in annual turnover or balance sheet total. This exception does not apply to products in the same way.</li>
             </ul>
           </div>
         </div>
-        <p class="reveal"><strong>Not sure whether this applies to you?</strong> We give you a technical first assessment, free and without obligation.</p>
+        <p class="reveal"><strong>Not sure whether your offer is BFSG-related?</strong> We give you a technical first assessment, free and without obligation. The legal question remains separate.</p>
+        <p class="reveal" style="font-size:var(--fs-300);color:var(--text-muted)">Sources: <a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html">Destatis on severe disability</a> and the <a href="https://www.demografie-portal.de/DE/Fakten/aeltere-bevoelkerung.html">German Demography Portal on people aged 65 and older</a>.</p>
       </div>
     </section>
 
@@ -240,17 +264,17 @@
         <div class="section-head reveal">
           <p class="eyebrow">Clear language</p>
           <h2 id="language-h">Accessible also means understandable.</h2>
-          <p>A website can pass many technical checks and still fail people because the text is too complex. Clear language reduces support, improves completion rates and helps users understand what happens next.</p>
+          <p>A website can pass many technical checks and still fail people because the text is too complex. The LEO 2018 study names 6.2 million adults in Germany with low literacy. A GfdS/Allensbach survey found that 86 percent had at least occasional difficulty understanding letters from authorities, courts, lawyers or similar institutions. Clear language reduces support, improves completion rates and helps users understand what happens next.</p>
         </div>
 
         <div class="vs reveal">
           <div class="vs__card vs__card--before">
             <span class="vs__tag">Before</span>
-            <p>"The assertion of warranty claims requires notification of the defect within the statutory period upon presentation of proof of purchase."</p>
+            <p>“The assertion of warranty claims requires notification of the defect within the statutory period upon presentation of proof of purchase.”</p>
           </div>
           <div class="vs__card vs__card--after">
             <span class="vs__tag">After</span>
-            <p>"Your product is broken? Contact us and send your receipt. You can do this up to two years after buying it."</p>
+            <p>“Your product is broken? Contact us and send your receipt. You can do this up to two years after buying it.”</p>
           </div>
         </div>
 
@@ -264,7 +288,7 @@
 
         <div class="reveal" style="margin-top:var(--space-3);max-width:42rem">
           <p><strong>Easy Read or plain language?</strong> They are different levels. Easy Read follows stricter rules and is aimed at people with learning difficulties, dementia or limited language skills. Plain language is more flexible and reaches a broad audience. We help you choose what fits your users.</p>
-          <p>Important: this is editorial work, not automatic rewriting. We do not sell "Easy Read by pressing a button".</p>
+          <p>Important: this is editorial work, not automatic rewriting. We do not sell “Easy Read at the push of a button.”</p>
         </div>
       </div>
     </section>
@@ -280,7 +304,7 @@
           <div class="card reveal">
             <h3>BFSG Startcheck</h3>
             <p class="card__price">from 1,900 €</p>
-            <p>Manual review of technology and content with a prioritised report: what is critical, what can wait and what the implementation will cost.</p>
+            <p>Manual review of technology and content with a prioritized report: what is critical, what can wait and what the implementation will cost.</p>
           </div>
           <div class="card reveal">
             <h3>Technical implementation</h3>
@@ -295,7 +319,7 @@
           <div class="card reveal">
             <h3>Accessibility information</h3>
             <p class="card__price">fixed price</p>
-            <p>A careful statement describing the checked state, known limitations and contact route for feedback. No certification theatre.</p>
+            <p>A careful statement describing the checked state, known limitations and a contact channel for feedback. No certification theater.</p>
           </div>
           <div class="card reveal">
             <h3>Monitoring</h3>
@@ -308,7 +332,7 @@
             <p>For teams that need to maintain accessible content themselves: alternative text, headings, forms, clear language and content structure.</p>
           </div>
         </div>
-        <p class="reveal" style="margin-top:var(--space-3)"><span class="pill">Note</span> Prices are net prices and orientation values. The binding fixed price comes after the check.</p>
+        <p class="reveal" style="margin-top:var(--space-3)"><span class="pill">Note</span> Prices are before VAT and are estimates. The binding fixed price comes after the check.</p>
       </div>
     </section>
 
@@ -317,14 +341,14 @@
         <div class="section-head reveal">
           <p class="eyebrow">Funding</p>
           <h2 id="funding-h">Funding may lower the starting cost, but it is not automatic.</h2>
-          <p>The BAFA programme for SME business consulting can be relevant for consulting parts. Depending on the location, the funding rate can be 50 percent or, in the area of the new German federal states including Mecklenburg-Vorpommern, up to 80 percent of eligible consulting costs. We check this before offer and project start.</p>
+          <p>The <a href="https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html">BAFA program for SME business consulting</a> can be relevant for consulting parts. Depending on location, the funding rate can be 50 percent or, in the new German states including Mecklenburg-Vorpommern, up to 80 percent of eligible consulting costs. The <a href="https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/rahmenrichtlinie-zur-foerderung-unternehmerischen.html">German federal funding database</a> states that the application must be submitted before the planned consulting work begins. We check this before proposal and project start.</p>
         </div>
         <div class="callout reveal">
           <p><strong>Example: BFSG Startcheck in Mecklenburg-Vorpommern, if eligible</strong></p>
           <ul class="calc">
             <li><span>BFSG Startcheck</span> <span>1,900 €</span></li>
             <li><span>possible BAFA grant</span> <span>up to 1,520 €</span></li>
-            <li><span>calculated own share</span> <span>from 380 €</span></li>
+            <li><span>calculated out-of-pocket cost</span> <span>from 380 €</span></li>
           </ul>
           <p style="margin-top:var(--space-2)"><span class="pill">Honest</span> Funding rates, caps and procedures can change. Funding is a possible route, not a promise.</p>
         </div>
@@ -335,14 +359,24 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">References</p>
-          <h2 id="references-h">Proven work, not empty claims.</h2>
+          <h2 id="references-h">Concrete work, not empty claims.</h2>
           <p>Accessibility is not new to us. Erik has built and maintained websites and WooCommerce shops for more than 25 years. Annemarie works on language where clarity matters: Easy Read, editing, proofing and understandable digital information.</p>
+        </div>
+        <div class="quotes reveal">
+          <div class="quote">
+            <blockquote>“Jan-Erik and the skilled copywriter Annemarie set up this new format for us professionally and with accessibility in mind. Great teamwork, reliable and committed.”</blockquote>
+            <cite>Karin Chierchia, Senior Partner in School e.&nbsp;V. (translated from German)</cite>
+          </div>
+          <div class="quote">
+            <blockquote>“Professional web design that keeps surprising me. My ideas are taken seriously and given the final polish by Mr. Andersen. That is how you stand out from the competition.”</blockquote>
+            <cite>Corvin Jaedicke, ai-coustics (translated from German)</cite>
+          </div>
         </div>
         <ul class="reveal" style="margin-top:var(--space-3)">
           <li>Websites and WooCommerce shops built and maintained for more than 25 years.</li>
-          <li>Digital impact report for Senior Partner in School e.&nbsp;V., implemented with accessible structures by Erik and text work by Annemarie.</li>
-          <li>Easy Read work for the German Future Prize, checked by the Easy Read office in Iserlohn.</li>
-          <li>Plain and Easy Read work for public-sector information, including the funding guide of the German Federal Ministry of Finance.</li>
+          <li><a href="https://wirkungsbericht.seniorpartnerinschool.de/">Digital impact report for Senior Partner in School e.&nbsp;V.</a>, implemented with accessible structures by Erik and text work by Annemarie.</li>
+          <li>Easy Read work for the <a href="https://www.deutscher-zukunftspreis.de/de/leichte-sprache-geleitwort-des-bundespraesidenten">German Future Prize</a>, checked by the <a href="https://www.dmr-teilhabeundwohnen.de/teilhabe-ermoeglichen/buero-fuer-leichte-sprache">Easy Read office in Iserlohn</a>.</li>
+          <li>Plain and Easy Read work for public-sector information, including the <a href="https://www.foerderleitfaden.bund.de/DE/Startseite/startseite_node.html">funding guide of the German Federal Ministry of Finance</a>.</li>
         </ul>
       </div>
     </section>
@@ -355,7 +389,7 @@
         </div>
         <ol class="steps reveal">
           <li><strong>Short call, free.</strong> What does your website offer, and where does an online transaction happen?</li>
-          <li><strong>The check.</strong> We manually review technology and content and deliver a prioritised report.</li>
+          <li><strong>The check.</strong> We manually review technology and content and deliver a prioritized report.</li>
           <li><strong>Implementation at a fixed price.</strong> We fix the agreed points in code and text. Your effort stays small.</li>
           <li><strong>Statement and documentation.</strong> You receive accessibility information and a record of what was checked and changed.</li>
           <li><strong>Monitoring if needed.</strong> We keep checking new content and technical changes.</li>
@@ -376,7 +410,7 @@
           </blockquote>
           <blockquote class="reveal">
             <h3>No fear-based sales.</h3>
-            <p>Some providers sell panic and overclaim what the law says. We separate technical accessibility work from legal assessment and tell you what is actually useful.</p>
+            <p>Some providers sell panic and overclaim what the law says. We separate evidence-based technical accessibility work from legal assessment and tell you clearly where legal review is needed.</p>
           </blockquote>
         </div>
         <p class="reveal" style="margin-top:var(--space-3)">This website is also a proof point: keyboard use, focus, contrast, dark mode, text-size options, reduced motion, language versions and an honest <a href="../barrierefreiheit/index.html">accessibility statement in German</a>.</p>
@@ -409,7 +443,7 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn">
-              <p>For services, micro-enterprises can be exempt if they have fewer than 10 employees and under 2 million euros in annual turnover or balance sheet total. Both must apply. The exception does not cover products in the same way.</p>
+              <p>For services, microenterprises can be exempt if they have fewer than 10 employees and no more than EUR 2 million in annual turnover or balance sheet total. Both conditions must apply. The exception does not cover products in the same way.</p>
             </div>
           </div>
           <div class="accordion__item">
@@ -420,7 +454,7 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn">
-              <p>The legal framework points to EN 301 549 and WCAG criteria. We work WCAG-2.2-AA-oriented because it includes newer interaction criteria. This is a target standard, not a certificate.</p>
+              <p>The legal framework is the BFSG and BFSGV. EN 301 549 and WCAG are technical reference points. We work toward WCAG 2.2 AA because WCAG 2.2 adds newer success criteria. This is a target standard, not a certificate.</p>
             </div>
           </div>
           <div class="accordion__item">
@@ -431,7 +465,7 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn">
-              <p>Not as a blanket BFSG requirement for private websites. Clear content, alternative texts and understandable errors are still part of accessible communication. Easy Read can be useful, but it is a separate editorial service.</p>
+              <p>Not as a blanket BFSG requirement for private websites. German public-sector websites have separate requirements under BITV 2.0. Clear content, alternative text and understandable errors are still part of accessible communication. Easy Read can be useful, but it is a separate editorial service.</p>
             </div>
           </div>
           <div class="accordion__item">
@@ -442,7 +476,7 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn">
-              <p>The BFSG Startcheck starts at about 1,900 euros net. Funding may reduce the own share if the programme fits. We check this before offer and project start.</p>
+              <p>The BFSG Startcheck starts at about EUR 1,900 before VAT. Funding may reduce the out-of-pocket cost if the program, application and formal requirements fit. We check this before proposal and project start.</p>
             </div>
           </div>
           <div class="accordion__item">
@@ -453,10 +487,29 @@
               </button>
             </h3>
             <div class="accordion__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn">
-              <p>It describes the checked state, known limitations and a contact route for accessibility feedback. It must not promise more than the website actually delivers.</p>
+              <p>It describes the checked state, known limitations and a contact channel for accessibility feedback. It must not promise more than the website actually delivers.</p>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="sources" aria-labelledby="sources-h">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Sources</p>
+          <h2 id="sources-h">The main technical and legal sources are linked directly.</h2>
+          <p>These sources support the factual claims on this page. They do not replace legal advice for a specific case.</p>
+        </div>
+        <ul class="benefits reveal">
+          <li><a href="https://www.barrierefreiheit-dienstekonsolidierung.bund.de/Webs/PB/DE/gesetze-und-richtlinien/barrierefreiheitsstaerkungsgesetz/barrierefreiheitsstaerkungsgesetz-node.html">German Accessibility Portal: BFSG overview</a> and the <a href="https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/barrierefreiheitsstaerkungsgesetz.html">BMAS page on the German Accessibility Strengthening Act</a>.</li>
+          <li><a href="https://www.gesetze-im-internet.de/bfsg/__2.html">Section 2 BFSG</a>, <a href="https://www.gesetze-im-internet.de/bfsg/__3.html">Section 3 BFSG</a> and <a href="https://www.gesetze-im-internet.de/bfsg/__37.html">Section 37 BFSG</a> for definitions, exemptions and fines.</li>
+          <li><a href="https://www.mlbf-barrierefrei.de/">MLBF</a> for nationwide market surveillance under the BFSG.</li>
+          <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">W3C WCAG overview</a> and <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> as technical references.</li>
+          <li><a href="https://www.gesetze-im-internet.de/bitv_2_0/__4.html">Section 4 BITV 2.0</a> on Easy Read for German public-sector websites and <a href="https://www.din.de/de/din-und-seine-partner/presse/mitteilungen/erste-din-normen-fuer-einfache-sprache-veroeffentlicht--1090866">DIN on German plain language</a>.</li>
+          <li><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html">Destatis on severe disability</a>, the <a href="https://www.demografie-portal.de/DE/Fakten/aeltere-bevoelkerung.html">German Demography Portal on people aged 65 and older</a>, the <a href="https://leo.blogs.uni-hamburg.de/leo-2018-62-millionen-gering-literalisierte-erwachsene/">LEO 2018 study</a> and <a href="https://gfds.de/verstaendliche-rechts-und-verwaltungssprache/">GfdS on legal and administrative language</a>.</li>
+          <li><a href="https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html">BAFA business consulting funding</a> and the <a href="https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/rahmenrichtlinie-zur-foerderung-unternehmerischen.html">German federal funding database</a>.</li>
+        </ul>
       </div>
     </section>
 
@@ -464,8 +517,8 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">Contact</p>
-          <h2 id="contact-h">Find out whether your website is likely affected.</h2>
-          <p>Tell us briefly what your website does and where the relevant page is. You receive an honest first technical assessment: whether the BFSG scope looks plausible and what the next step should be. Direct email: <a href="mailto:mail@andersen-webworks.de">mail@andersen-webworks.de</a>.</p>
+          <h2 id="contact-h">Get a first technical assessment.</h2>
+          <p>Tell us briefly what your website does and where the relevant page is. You receive an honest first technical assessment: whether BFSG-related processes are visible and what the next step should be. Direct email: <a href="mailto:mail@andersen-webworks.de">mail@andersen-webworks.de</a>.</p>
         </div>
 
         <form id="kontakt-form" class="reveal" action="mailto:mail@andersen-webworks.de" method="post" enctype="text/plain" style="max-width:38rem">
@@ -515,6 +568,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#funding">Funding</a></li>
           <li><a href="#faq">FAQ</a></li>
+          <li><a href="#sources">Sources</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="../index.html" lang="de">Deutsch</a></li>
           <li><a href="../leichte-sprache/index.html" lang="de">Leichte Sprache</a></li>

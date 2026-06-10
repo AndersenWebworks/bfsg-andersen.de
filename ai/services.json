@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "provider": "Andersen Webworks",
   "services": [
     {
@@ -10,16 +10,16 @@
       "url": "https://bfsg-andersen.de/#leistungen",
       "englishUrl": "https://bfsg-andersen.de/en/#services",
       "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#pruefung",
-      "limits": "Keine Rechtsberatung, keine BFSG-Konformitätsgarantie. Förderfähigkeit wird vor Angebot und Auftrag geprüft."
+      "limits": "Keine Rechtsberatung, keine BFSG-Konformitätsgarantie. Förderfähigkeit, Antrag und Verfahren werden vor Angebot und Start geprüft."
     },
     {
-      "name": "Checkout-Check",
+      "name": "Check-out-Check",
       "audience": "Online-Shops, Buchungs- und Abschlussstrecken",
       "description": "Prüfung von Tastaturbedienung, Fokusführung, Formularen, Fehlern, Statusmeldungen, Zahlung, Login und Abschlusslogik.",
       "url": "https://bfsg-andersen.de/#leistungen",
       "englishUrl": "https://bfsg-andersen.de/en/#services",
       "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#fuer-wen",
-      "limits": "Rechtlicher BFSG-Scope muss projektspezifisch geklärt werden."
+      "limits": "Der rechtliche BFSG-Anwendungsbereich muss projektspezifisch geklärt werden. Der Check ist eine technische Einordnung."
     },
     {
       "name": "Webcheck plus Fix",
