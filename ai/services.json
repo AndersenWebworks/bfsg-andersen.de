@@ -3,7 +3,7 @@
   "provider": "Andersen Webworks",
   "services": [
     {
-      "name": "BFSG Startcheck",
+      "name": "BFSG-Startcheck",
       "audience": "Unternehmen, Selbständige und Organisationen mit Websites, Shops, Formularen, Buchungsstrecken oder B2C-Abschlussprozessen",
       "description": "Manuelle technische und inhaltliche Prüfung nach WCAG-2.2-AA-Logik mit priorisiertem Maßnahmenbericht.",
       "priceFromNetEur": 1900,
@@ -24,7 +24,7 @@
     {
       "name": "Texte und Leichte Sprache",
       "audience": "Website-Betreiber, deren Inhalte, Fehlermeldungen oder Alternativtexte verständlicher werden sollen",
-      "description": "Redaktionelle Arbeit an verständlichen Inhalten, Alternativtexten, Fehlermeldungen sowie Leichter und Einfacher Sprache.",
+      "description": "Redaktionelle Arbeit an verständlichen Inhalten, Alternativtexten, Fehlermeldungen sowie Leichter und Einfacher Sprache, verantwortet von einer Sprachdienstleisterin.",
       "url": "https://bfsg-andersen.de/#leistungen",
       "englishUrl": "https://bfsg-andersen.de/en/#services",
       "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#team",

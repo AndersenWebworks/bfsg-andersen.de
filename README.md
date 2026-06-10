@@ -1,6 +1,6 @@
 # bfsg-andersen.de
 
-Landingpage für den **BFSG Webcheck** von Andersen Webworks. Technische Barrierefreiheit prüfen, priorisieren und verbessern: Technik und Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, Sprache). Keine Rechtsberatung, keine pauschale BFSG-Konformitätsgarantie.
+Landingpage für den **BFSG-Webcheck** von Andersen Webworks. Technische Barrierefreiheit prüfen, priorisieren und verbessern: Technik und Texte aus einer Hand (Erik Andersen, Technik; Annemarie Andersen, freie Sachverständige für Sprachdienstleistungen mit QA-Hintergrund). Keine Rechtsberatung, keine pauschale BFSG-Konformitätsgarantie.
 
 ## Struktur
 

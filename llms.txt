@@ -1,4 +1,4 @@
-# BFSG Webcheck | Andersen Webworks
+# BFSG-Webcheck | Andersen Webworks
 
 > Technische Barrierefreiheit prüfen, priorisieren und verbessern: WCAG-2.2-AA-orientierte Webarbeit von Andersen Webworks. Keine Rechtsberatung, keine BFSG-Konformitätsgarantie.
 
@@ -6,15 +6,15 @@
 
 - Anbieter: Andersen Webworks
 - Website: https://bfsg-andersen.de/
-- Angebot: BFSG Webcheck
+- Angebot: BFSG-Webcheck
 - Standort/Gebiet: Mecklenburg-Vorpommern, bundesweit remote
 - Kontakt: mail@andersen-webworks.de
-- Personen: Jan-Erik Andersen (Technik, Webentwicklung), Annemarie Andersen (Sprache, Lektorat, Leichte und Einfache Sprache)
+- Personen: Jan-Erik Andersen (Technik, Webentwicklung), Annemarie Andersen (freie Sachverständige für Sprachdienstleistungen mit QA-Hintergrund, Leichte und Einfache Sprache)
 - Zielgruppe: Unternehmen, Selbständige und Organisationen mit Websites, Shops, Buchungsstrecken, Formularen, Logins oder B2C-Abschlussprozessen
 
 ## Angebot
 
-- BFSG Startcheck: manuelle technische und inhaltliche Prüfung, priorisierter Maßnahmenbericht, Orientierung für Umsetzung und Barrierefreiheitsinformation. Ab rund 1.900 EUR netto.
+- BFSG-Startcheck: manuelle technische und inhaltliche Prüfung, priorisierter Maßnahmenbericht, Orientierung für Umsetzung und Barrierefreiheitsinformation. Ab rund 1.900 EUR netto.
 - Technische Umsetzung: Korrektur der geprüften Punkte in Code und Text, WCAG-2.2-orientiert und zum Festpreis nach dem Check.
 - Texte und Leichte Sprache: verständliche Inhalte, Alternativtexte, Fehlermeldungen, Leichte und Einfache Sprache nach Bedarf.
 - Barrierefreiheitsinformation: vorsichtig formulierte Erklärung zum geprüften Stand, zu bekannten Einschränkungen und zum Kontaktweg für Hinweise.
@@ -23,7 +23,7 @@
 
 ## Fachliche Grenzen
 
-- Der BFSG Webcheck ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
+- Der BFSG-Webcheck ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
 - Es gibt keine pauschale BFSG-Compliance-Garantie und kein 100-Prozent-barrierefrei-Versprechen.
 - Ob eine konkrete Website rechtlich unter das BFSG fällt, muss projektspezifisch geklärt werden.
 - Leichte Sprache ist keine pauschale BFSG-Pflicht für privatwirtschaftliche Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
