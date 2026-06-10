@@ -87,6 +87,8 @@
         "acceptedAnswer": { "@type": "Answer", "text": "Rechtlicher Rahmen sind das Barrierefreiheitsstärkungsgesetz (BFSG) und die Verordnung zum Barrierefreiheitsstärkungsgesetz (BFSGV). EN 301 549 und die Web Content Accessibility Guidelines (WCAG, Richtlinien für barrierefreie Web-Inhalte) sind technische Bezugspunkte. Wir arbeiten WCAG-2.2-AA-orientiert, weil WCAG 2.2 neuere Erfolgskriterien ergänzt; das ist ein Zielstandard, kein Zertifikat." } },
       { "@type": "Question", "name": "Brauche ich Leichte Sprache?",
         "acceptedAnswer": { "@type": "Answer", "text": "Für privatwirtschaftliche Websites ist Leichte Sprache keine pauschale BFSG-Pflicht. Für öffentliche Stellen gibt es Vorgaben in der Barrierefreie-Informationstechnik-Verordnung (BITV 2.0). Verständliche Inhalte, Alternativtexte und klare Fehlermeldungen sind trotzdem ein wichtiger Teil barrierefreier Kommunikation." } },
+      { "@type": "Question", "name": "Reicht ein Barrierefreiheits-Overlay?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Nein. Ein Overlay kann einzelne Zusatzfunktionen anbieten, ersetzt aber keine barrierefreie Website. Die eigentlichen Barrieren bleiben oft im Code, in der Struktur, in Formularen, im Checkout oder in den Texten. Außerdem müssen Besucherinnen und Besucher erst ein zusätzliches Werkzeug finden, verstehen und richtig bedienen. Echte Barrierefreiheit muss in der Website selbst entstehen." } },
       { "@type": "Question", "name": "Was kostet das, und wie schnell geht das?",
         "acceptedAnswer": { "@type": "Answer", "text": "Der BFSG-Startcheck beginnt bei rund 1.900 Euro netto. Förderprogramme können den Eigenanteil senken, wenn Förderfähigkeit, Antrag und Verfahren passen. Ein möglicher Weg ist das Programm „Förderung von Unternehmensberatungen für kleine und mittlere Unternehmen (KMU)“ des Bundesamts für Wirtschaft und Ausfuhrkontrolle (BAFA). Der Antrag muss vor Beginn gestellt werden; die Beratung darf erst nach der BAFA-Rückmeldung beginnen. Das prüfen wir vor Angebot und Start." } },
       { "@type": "Question", "name": "Was ist die Erklärung zur Barrierefreiheit?",
@@ -411,7 +413,7 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">Klartext</p>
-          <h2 id="ehr-h">Zwei Dinge, die wir nicht behaupten.</h2>
+          <h2 id="ehr-h">Drei Dinge, die wir nicht behaupten.</h2>
         </div>
         <div class="honest">
           <blockquote class="reveal">
@@ -421,6 +423,12 @@
           <blockquote class="reveal">
             <h3>Wir verkaufen keine Angst.</h3>
             <p>Manche drohen mit Bußgeldern für Dinge, die so nicht pauschal im Gesetz stehen, etwa Leichte Sprache als angebliche BFSG-Pflicht für jede private Website. Wir trennen belegbare technische Anforderungen von rechtlicher Einordnung und sagen klar, wo eine Rechtsprüfung nötig ist.</p>
+          </blockquote>
+          <blockquote class="reveal">
+            <h3>Kein Overlay als Ausrede.</h3>
+            <p>Ein Barrierefreiheits-Overlay kann einzelne Komfortfunktionen ergänzen, zum Beispiel größere Schrift, Kontraste oder eine Vorlesefunktion. Es macht eine Website aber nicht automatisch barrierefrei.</p>
+            <p>Oft entsteht sogar eine neue Hürde: Menschen müssen erst ein fremdes Symbol finden, ein Sondermenü verstehen und passende Einstellungen auswählen, bevor sie die eigentliche Seite nutzen können. Barrierefreiheit sollte nicht davon abhängen, dass Besucherinnen und Besucher ein Zusatzwerkzeug richtig erraten.</p>
+            <p>Die Website selbst muss stimmen: Struktur, Tastaturbedienung, Fokus, Formulare, Fehlermeldungen, Texte, Kontraste und Checkout. Ein Overlay kann höchstens ergänzen. Es ersetzt keine technische Prüfung und keine Korrektur im Code.</p>
           </blockquote>
         </div>
         <p class="reveal" style="margin-top:var(--space-3)">Diese Seite ist selbst der erste Prüfstein: Tastatur, Fokus, Kontrast, Dark Mode, Schriftgrößen, Reduced Motion und eine ehrliche <a href="barrierefreiheit/index.html">Erklärung zur Barrierefreiheit</a>.</p>
@@ -482,22 +490,34 @@
           <div class="accordion__item">
             <h3>
               <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
-                Was kostet das, und wie schnell geht das?
+                Reicht ein Barrierefreiheits-Overlay?
                 <span class="accordion__icon" aria-hidden="true"></span>
               </button>
             </h3>
             <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn">
-              <p>Der BFSG-Startcheck beginnt bei rund 1.900 Euro netto. Wenn ein Förderprogramm passt und der Antrag rechtzeitig gestellt wird, kann der Eigenanteil deutlich niedriger liegen. Ein möglicher Weg ist das Programm „Förderung von Unternehmensberatungen für kleine und mittlere Unternehmen (KMU)“ des Bundesamts für Wirtschaft und Ausfuhrkontrolle (BAFA). Das prüfen wir vor Angebot und Auftrag, nicht nachträglich als Verkaufsversprechen. Den Festpreis für die Umsetzung bekommen Sie nach dem Check.</p>
+              <p>Nein. Ein Overlay kann einzelne Zusatzfunktionen anbieten, zum Beispiel größere Schrift, Kontrastansichten oder eine Vorlesefunktion. Es repariert aber nicht zuverlässig die eigentlichen Barrieren einer Website: fehlende Formularlabels, falsche Überschriften, unklare Buttons, schlechte Fokusführung, nicht bedienbare Menüs, fehlerhafte Fehlermeldungen, unzugängliche PDFs oder einen Checkout, der mit Tastatur und Screenreader nicht sauber funktioniert.</p>
+              <p>Es kann außerdem zusätzliche Bedienlast erzeugen. Wer Unterstützung braucht, soll dann erst ein fremdes Symbol finden, ein Menü verstehen und passende Einstellungen auswählen. Das ist nicht selbsterklärend. Echte Barrierefreiheit entsteht in der Website selbst.</p>
             </div>
           </div>
           <div class="accordion__item">
             <h3>
               <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">
-                Was ist die Erklärung zur Barrierefreiheit?
+                Was kostet das, und wie schnell geht das?
                 <span class="accordion__icon" aria-hidden="true"></span>
               </button>
             </h3>
             <div class="accordion__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn">
+              <p>Der BFSG-Startcheck beginnt bei rund 1.900 Euro netto. Wenn ein Förderprogramm passt und der Antrag rechtzeitig gestellt wird, kann der Eigenanteil deutlich niedriger liegen. Ein möglicher Weg ist das Programm „Förderung von Unternehmensberatungen für kleine und mittlere Unternehmen (KMU)“ des Bundesamts für Wirtschaft und Ausfuhrkontrolle (BAFA). Das prüfen wir vor Angebot und Auftrag, nicht nachträglich als Verkaufsversprechen. Den Festpreis für die Umsetzung bekommen Sie nach dem Check.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">
+                Was ist die Erklärung zur Barrierefreiheit?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-7" role="region" aria-labelledby="faq-7-btn">
               <p>Sie beschreibt den geprüften Stand, bekannte Einschränkungen und einen Kontaktweg für Hinweise. Bei BFSG-nahen Diensten können solche Informationen rechtlich relevant sein; bei reinen Informationsseiten kann eine freiwillige Erklärung trotzdem sinnvoll sein. Wir formulieren sie so, dass sie nicht mehr verspricht, als die Seite hält.</p>
             </div>
           </div>
@@ -518,6 +538,7 @@
           <li><a href="https://www.gesetze-im-internet.de/bfsg/__2.html">§ 2 BFSG</a>, <a href="https://www.gesetze-im-internet.de/bfsg/__3.html">§ 3 BFSG</a> und <a href="https://www.gesetze-im-internet.de/bfsg/__37.html">§ 37 BFSG</a> für Begriffe, Ausnahmen und Bußgeldrahmen.</li>
           <li><a href="https://www.mlbf-barrierefrei.de/">Marktüberwachungsstelle der Länder für die Barrierefreiheit von Produkten und Dienstleistungen (MLBF)</a> zur bundesweiten Marktüberwachung nach BFSG.</li>
           <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">W3C-Überblick zu den Web Content Accessibility Guidelines (WCAG)</a> und <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> als technische Referenz.</li>
+          <li><a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Produkte-und-Dienstleistungen/Barrierefreiheitsstaerkungsgesetz/E-Commerce/online-shops_node">Bundesfachstelle Barrierefreiheit zu E-Commerce und BFSG</a>, <a href="https://www.bfit-bund.de/DE/Publikation/einschaetzung-overlaytools">BFIT-Bund zu Overlay-Tools</a>, <a href="https://www.dbsv.org/aktuell/barrierefreiheit-overlay-tools-achtung-vor-falschen-werbeversprechen.html">DBSV zu falschen Overlay-Versprechen</a> und <a href="https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/">EDF/IAAP Joint Statement on Accessibility Overlays</a>.</li>
           <li><a href="https://www.gesetze-im-internet.de/bitv_2_0/__4.html">§ 4 Barrierefreie-Informationstechnik-Verordnung (BITV 2.0)</a> zu Leichter Sprache auf Websites öffentlicher Stellen und <a href="https://www.din.de/de/din-und-seine-partner/presse/mitteilungen/erste-din-normen-fuer-einfache-sprache-veroeffentlicht--1090866">DIN zu Einfacher Sprache</a>.</li>
           <li><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html">Destatis zu schwerbehinderten Menschen</a>, <a href="https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/bevoelkerung-ab-65-j.html">Destatis zur Bevölkerung ab 65 Jahren</a>, <a href="https://leo.blogs.uni-hamburg.de/leo-2018-62-millionen-gering-literalisierte-erwachsene/">LEO-Studie 2018</a> und <a href="https://gfds.de/verstaendliche-rechts-und-verwaltungssprache/">GfdS zur Rechts- und Verwaltungssprache</a>.</li>
           <li><a href="https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html">Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) zur Unternehmensberatung</a> und <a href="https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/rahmenrichtlinie-zur-foerderung-unternehmerischen.html">Förderdatenbank des Bundes</a> zur Förderlogik.</li>

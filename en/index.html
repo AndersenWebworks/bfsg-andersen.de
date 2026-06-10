@@ -87,6 +87,8 @@
         "acceptedAnswer": { "@type": "Answer", "text": "The legal framework is the German Accessibility Strengthening Act (Barrierefreiheitsstärkungsgesetz, BFSG) and the Ordinance to that Act (Verordnung zum Barrierefreiheitsstärkungsgesetz, BFSGV). EN 301 549 and the Web Content Accessibility Guidelines (WCAG) are technical reference points. We work toward WCAG 2.2 AA because WCAG 2.2 adds newer success criteria. This is a target standard, not a certificate." } },
       { "@type": "Question", "name": "Do I need Easy Read content?",
         "acceptedAnswer": { "@type": "Answer", "text": "Easy Read is not a blanket BFSG requirement for business websites. German public-sector websites have separate requirements under the Accessible Information Technology Ordinance (BITV 2.0). Clear content, alternative text and understandable errors are still part of accessible communication." } },
+      { "@type": "Question", "name": "Is an accessibility overlay enough?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. An overlay can add individual convenience functions, but it does not replace an accessible website. The real barriers often remain in the code, structure, forms, checkout or content. Visitors also have to find, understand and configure an extra tool before they can use the actual website. Accessibility has to be built into the website itself." } },
       { "@type": "Question", "name": "What does the start check cost?",
         "acceptedAnswer": { "@type": "Answer", "text": "The BFSG-Startcheck starts at about EUR 1,900 before VAT. Funding may reduce the out-of-pocket cost if the program, application and formal requirements fit. One possible route is the consulting funding program for small and medium-sized enterprises (SMEs) of the Federal Office for Economic Affairs and Export Control (BAFA). The application must be submitted before consulting starts; consulting may begin only after BAFA has responded. We check this before proposal and project start." } },
       { "@type": "Question", "name": "What is accessibility information?",
@@ -403,7 +405,7 @@
       <div class="container">
         <div class="section-head reveal">
           <p class="eyebrow">Plain talk</p>
-          <h2 id="honesty-h">Two things we do not claim.</h2>
+          <h2 id="honesty-h">Three things we do not claim.</h2>
         </div>
         <div class="honest">
           <blockquote class="reveal">
@@ -413,6 +415,12 @@
           <blockquote class="reveal">
             <h3>No fear-based sales.</h3>
             <p>Some providers sell panic and overclaim what the law says. We separate evidence-based technical accessibility work from legal assessment and tell you clearly where legal review is needed.</p>
+          </blockquote>
+          <blockquote class="reveal">
+            <h3>No overlay as a shortcut.</h3>
+            <p>An accessibility overlay can add individual convenience functions, such as larger text, contrast modes or text-to-speech. It does not automatically make a website accessible.</p>
+            <p>It can even add another barrier: people first have to find an unfamiliar icon, understand a separate menu and choose the right setting before they can use the actual website. Accessibility should not depend on visitors guessing how to operate an extra tool.</p>
+            <p>The website itself has to work: structure, keyboard use, focus, forms, error messages, content, contrast and checkout. An overlay can only be an addition. It does not replace a technical review or fixes in the code.</p>
           </blockquote>
         </div>
         <p class="reveal" style="margin-top:var(--space-3)">This website is also a proof point: keyboard use, focus, contrast, dark mode, text-size options, reduced motion, language versions and an honest <a href="../barrierefreiheit/index.html">accessibility statement in German</a>.</p>
@@ -473,22 +481,34 @@
           <div class="accordion__item">
             <h3>
               <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
-                What does the start check cost?
+                Is an accessibility overlay enough?
                 <span class="accordion__icon" aria-hidden="true"></span>
               </button>
             </h3>
             <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn">
-              <p>The BFSG-Startcheck starts at about EUR 1,900 before VAT. Funding may reduce the out-of-pocket cost if the program, application and formal requirements fit. One possible route is the consulting funding program for small and medium-sized enterprises (SMEs) of the Federal Office for Economic Affairs and Export Control (BAFA). We check this before proposal and project start.</p>
+              <p>No. An overlay can provide individual add-ons, such as larger text, contrast views or text-to-speech. It does not reliably fix the real barriers of a website: missing form labels, broken heading structures, unclear buttons, poor focus order, menus that cannot be used with a keyboard, inaccessible PDFs or a checkout that does not work properly with assistive technology.</p>
+              <p>It can also add extra operating effort. People who need support then have to find an unfamiliar icon, understand a separate menu and choose the right setting. That is not self-explanatory. Real accessibility has to be built into the website itself.</p>
             </div>
           </div>
           <div class="accordion__item">
             <h3>
               <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">
-                What is accessibility information?
+                What does the start check cost?
                 <span class="accordion__icon" aria-hidden="true"></span>
               </button>
             </h3>
             <div class="accordion__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn">
+              <p>The BFSG-Startcheck starts at about EUR 1,900 before VAT. Funding may reduce the out-of-pocket cost if the program, application and formal requirements fit. One possible route is the consulting funding program for small and medium-sized enterprises (SMEs) of the Federal Office for Economic Affairs and Export Control (BAFA). We check this before proposal and project start.</p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <h3>
+              <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">
+                What is accessibility information?
+                <span class="accordion__icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="accordion__panel" id="faq-7" role="region" aria-labelledby="faq-7-btn">
               <p>It describes the checked state, known limitations and a contact channel for accessibility feedback. It must not promise more than the website actually delivers.</p>
             </div>
           </div>
@@ -508,6 +528,7 @@
           <li><a href="https://www.gesetze-im-internet.de/bfsg/__2.html">Section 2 BFSG</a>, <a href="https://www.gesetze-im-internet.de/bfsg/__3.html">Section 3 BFSG</a> and <a href="https://www.gesetze-im-internet.de/bfsg/__37.html">Section 37 BFSG</a> for definitions, exemptions and fines.</li>
           <li><a href="https://www.mlbf-barrierefrei.de/">Market Surveillance Authority of the German States for the Accessibility of Products and Services (MLBF)</a> for nationwide market surveillance under the BFSG.</li>
           <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">W3C overview of the Web Content Accessibility Guidelines (WCAG)</a> and <a href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> as technical references.</li>
+          <li><a href="https://www.bundesfachstelle-barrierefreiheit.de/DE/Fachwissen/Produkte-und-Dienstleistungen/Barrierefreiheitsstaerkungsgesetz/E-Commerce/online-shops_node">German Federal Accessibility Agency on e-commerce and BFSG</a>, <a href="https://www.bfit-bund.de/DE/Publikation/einschaetzung-overlaytools">BFIT-Bund on overlay tools</a>, <a href="https://www.dbsv.org/aktuell/barrierefreiheit-overlay-tools-achtung-vor-falschen-werbeversprechen.html">German Federation of the Blind and Partially Sighted on false overlay promises</a> and the <a href="https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/">EDF/IAAP joint statement on accessibility overlays</a>.</li>
           <li><a href="https://www.gesetze-im-internet.de/bitv_2_0/__4.html">Section 4 of the Accessible Information Technology Ordinance (BITV 2.0)</a> on Easy Read for German public-sector websites and the <a href="https://www.din.de/de/din-und-seine-partner/presse/mitteilungen/erste-din-normen-fuer-einfache-sprache-veroeffentlicht--1090866">German Institute for Standardization (DIN) on German plain language</a>.</li>
           <li><a href="https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html">Destatis on severe disability</a>, <a href="https://www.destatis.de/DE/Themen/Querschnitt/Demografischer-Wandel/Aeltere-Menschen/bevoelkerung-ab-65-j.html">Destatis on people aged 65 and older</a>, the <a href="https://leo.blogs.uni-hamburg.de/leo-2018-62-millionen-gering-literalisierte-erwachsene/">LEO 2018 study</a> and the <a href="https://gfds.de/verstaendliche-rechts-und-verwaltungssprache/">Society for the German Language (GfdS) on legal and administrative language</a>.</li>
           <li><a href="https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html">Federal Office for Economic Affairs and Export Control (BAFA) business consulting funding</a> and the <a href="https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/rahmenrichtlinie-zur-foerderung-unternehmerischen.html">German federal funding database</a>.</li>
