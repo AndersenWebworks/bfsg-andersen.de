@@ -127,6 +127,12 @@
   font-size: var(--fs-500);
   line-height: 1.65;
 }
+.easy-page h1,
+.easy-page h2,
+.easy-page h3,
+.easy-page .trust-strip__item {
+  font-family: var(--font-sans);
+}
 .easy-page p,
 .easy-page li {
   line-height: 1.75;
