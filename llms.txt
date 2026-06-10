@@ -15,19 +15,20 @@
 ## Angebot
 
 - BFSG Startcheck: manuelle technische und inhaltliche Prüfung, priorisierter Maßnahmenbericht, Orientierung für Umsetzung und Barrierefreiheitsinformation. Ab rund 1.900 EUR netto.
-- Check-out-Check: Prüfung von Shop, Buchung, Zahlung, Formularen, Login und Abschlussstrecken.
-- Webcheck plus Fix: Prüfung plus konkrete technische Korrekturen.
-- Texte und Sprache: verständliche Inhalte, Alternativtexte, Fehlermeldungen, Leichte und Einfache Sprache nach Bedarf.
+- Technische Umsetzung: Korrektur der geprüften Punkte in Code und Text, WCAG-2.2-orientiert und zum Festpreis nach dem Check.
+- Texte und Leichte Sprache: verständliche Inhalte, Alternativtexte, Fehlermeldungen, Leichte und Einfache Sprache nach Bedarf.
+- Barrierefreiheitsinformation: vorsichtig formulierte Erklärung zum geprüften Stand, zu bekannten Einschränkungen und zum Kontaktweg für Hinweise.
 - Monitoring: laufende Pflege, Stichproben und Prüfung neuer Inhalte.
+- Schulung: Anleitung für Teams zu Alternativtexten, verständlicher Sprache, korrekten Strukturen und barrierearmer Inhaltspflege.
 
 ## Fachliche Grenzen
 
 - Der BFSG Webcheck ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
 - Es gibt keine pauschale BFSG-Compliance-Garantie und kein 100-Prozent-barrierefrei-Versprechen.
 - Ob eine konkrete Website rechtlich unter das BFSG fällt, muss projektspezifisch geklärt werden.
-- Leichte Sprache ist keine pauschale BFSG-Pflicht für private Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
+- Leichte Sprache ist keine pauschale BFSG-Pflicht für privatwirtschaftliche Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
 - Die Leichte-Sprache-Seite ist als eigene Fassung geschrieben. Sie ist offen als noch nicht durch eine Prüfgruppe geprüft gekennzeichnet.
-- Förderprogramme können den Eigenanteil senken, wenn Förderfähigkeit, Antrag und Verfahren passen. Das muss vor Angebot und Start konkret geprüft werden.
+- Förderprogramme können den Eigenanteil senken, wenn Förderfähigkeit, Antrag und Verfahren passen. Bei BAFA-Förderung muss der Antrag vor Beginn gestellt werden; die Beratung darf erst nach der BAFA-Rückmeldung beginnen. Das muss vor Angebot und Start konkret geprüft werden.
 
 ## Technischer Standard
 
