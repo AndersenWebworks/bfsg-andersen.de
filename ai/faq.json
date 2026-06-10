@@ -20,7 +20,7 @@
     },
     {
       "question": "Reicht ein Barrierefreiheits-Overlay?",
-      "answer": "Nein. Ein Overlay kann einzelne Zusatzfunktionen anbieten, zum Beispiel größere Schrift, Kontrastansichten oder eine Vorlesefunktion. Es repariert aber nicht zuverlässig die eigentlichen Barrieren einer Website: fehlende Formularlabels, falsche Überschriften, unklare Buttons, schlechte Fokusführung, nicht bedienbare Menüs, fehlerhafte Fehlermeldungen, unzugängliche PDFs oder einen Checkout, der mit Tastatur und Screenreader nicht sauber funktioniert. Außerdem kann es zusätzliche Bedienlast erzeugen, weil Besucherinnen und Besucher erst ein fremdes Symbol finden, ein Menü verstehen und passende Einstellungen auswählen müssen. Echte Barrierefreiheit entsteht in der Website selbst."
+      "answer": "Nein. Ein Overlay kann einzelne Zusatzfunktionen anbieten, zum Beispiel größere Schrift, Kontrastansichten oder eine Vorlesefunktion. Es repariert aber nicht zuverlässig die eigentlichen Barrieren einer Website: fehlende Formularlabels, falsche Überschriften, unklare Buttons, schlechte Fokusführung, nicht bedienbare Menüs, fehlerhafte Fehlermeldungen, unzugängliche PDFs oder einen Checkout, der mit Tastatur und Screenreader nicht sauber funktioniert. Außerdem kann es technische Konflikte mit Screenreadern, Tastaturbedienung, Fokusreihenfolge, ARIA-Informationen, Browser-Zoom oder persönlichen Kontrast- und Schriftgrößen-Einstellungen auslösen. Es erzeugt auch zusätzliche Bedienlast, weil Besucherinnen und Besucher erst ein fremdes Symbol finden, ein Menü verstehen und passende Einstellungen auswählen müssen. Echte Barrierefreiheit entsteht in der Website selbst."
     },
     {
       "question": "Gibt es Sprachversionen?",
