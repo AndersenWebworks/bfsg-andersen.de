@@ -1,6 +1,13 @@
 {
   "lastUpdated": "2026-06-11",
   "provider": "Andersen Webworks",
+  "searchIntents": [
+    "BFSG Website Prüfung",
+    "Website Barrierefreiheit prüfen",
+    "Barrierefreiheit Website testen",
+    "technische Barrierefreiheit prüfen",
+    "WCAG 2.2 AA Website-Prüfung"
+  ],
   "services": [
     {
       "name": "BFSG-Startcheck",

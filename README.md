@@ -7,7 +7,8 @@ Landingpage für die **BFSG Barrierefreie Website** von Andersen Webworks. Techn
 ```
 .
 ├── index.html              Landingpage
-├── llms.txt                KI-/Agent-Sichtbarkeit (GEO/AVO)
+├── llms.txt                kurze KI-/Agent-Sichtbarkeit (GEO/AVO)
+├── llms-full.txt           ausführliche maschinenlesbare Angebotszusammenfassung
 ├── robots.txt              Crawler-Regeln und Sitemap-Hinweis
 ├── sitemap.xml             Indexierbare Seiten
 ├── ai/                     Maschinenlesbare Zusammenfassungen

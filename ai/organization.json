@@ -6,6 +6,21 @@
   "areaServed": "Deutschland",
   "baseRegion": "Mecklenburg-Vorpommern",
   "contactEmail": "mail@andersen-webworks.de",
+  "machineReadableResources": [
+    "https://bfsg-barrierefreie-website.de/llms.txt",
+    "https://bfsg-barrierefreie-website.de/llms-full.txt",
+    "https://bfsg-barrierefreie-website.de/ai/organization.json",
+    "https://bfsg-barrierefreie-website.de/ai/services.json",
+    "https://bfsg-barrierefreie-website.de/ai/faq.json"
+  ],
+  "mainTopics": [
+    "BFSG Website Prüfung",
+    "Website Barrierefreiheit prüfen",
+    "Barrierefreiheit Website testen",
+    "technische Barrierefreiheit",
+    "WCAG 2.2 AA",
+    "EN 301 549"
+  ],
   "languageVersions": [
     {
       "name": "Deutsch",

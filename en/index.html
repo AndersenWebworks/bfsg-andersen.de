@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BFSG Accessible Website | Andersen Webworks</title>
-  <meta name="description" content="BFSG Accessible Website by Andersen Webworks: technical accessibility checks and WCAG-2.2-AA-oriented fixes for German websites and online flows.">
+  <title>BFSG Website Accessibility Check | Andersen Webworks</title>
+  <meta name="description" content="BFSG website accessibility check by Andersen Webworks: test website accessibility, prioritize barriers and fix German online flows toward WCAG 2.2 AA.">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8f5">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171b19">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -21,8 +21,8 @@
   <link rel="alternate" hreflang="x-default" href="https://bfsg-barrierefreie-website.de/">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BFSG Accessible Website | Technical accessibility for German websites">
-  <meta property="og:description" content="Accessibility checks and implementation oriented toward the Web Content Accessibility Guidelines (WCAG) 2.2 AA. No legal opinion, no false certainty.">
+  <meta property="og:title" content="BFSG Website Accessibility Check | Andersen Webworks">
+  <meta property="og:description" content="Test website accessibility, prioritize barriers and improve German online flows toward the Web Content Accessibility Guidelines (WCAG) 2.2 AA.">
   <meta property="og:url" content="https://bfsg-barrierefreie-website.de/en/">
   <meta property="og:image" content="https://bfsg-barrierefreie-website.de/assets/bfsg-barrierefreie-website-hero.png">
   <meta property="og:image:width" content="1774">
@@ -70,12 +70,50 @@
         "address": { "@type": "PostalAddress", "addressRegion": "Mecklenburg-Vorpommern", "addressCountry": "DE" }
       },
       {
+        "@type": "WebSite",
+        "@id": "https://bfsg-barrierefreie-website.de/#website",
+        "name": "BFSG Accessible Website",
+        "url": "https://bfsg-barrierefreie-website.de/",
+        "inLanguage": ["de-DE", "en-US"],
+        "publisher": { "@id": "https://bfsg-barrierefreie-website.de/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://bfsg-barrierefreie-website.de/en/#webpage",
+        "url": "https://bfsg-barrierefreie-website.de/en/",
+        "name": "BFSG Website Accessibility Check",
+        "description": "Technical BFSG website accessibility check for German websites, online shops, booking flows, forms and checkout processes.",
+        "inLanguage": "en-US",
+        "isPartOf": { "@id": "https://bfsg-barrierefreie-website.de/#website" },
+        "about": { "@id": "https://bfsg-barrierefreie-website.de/#bfsg-barrierefreie-website" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://bfsg-barrierefreie-website.de/assets/bfsg-barrierefreie-website-hero.png",
+          "width": 1774,
+          "height": 887
+        },
+        "breadcrumb": { "@id": "https://bfsg-barrierefreie-website.de/en/#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://bfsg-barrierefreie-website.de/en/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "BFSG Website Accessibility Check",
+            "item": "https://bfsg-barrierefreie-website.de/en/"
+          }
+        ]
+      },
+      {
         "@type": "Service",
         "@id": "https://bfsg-barrierefreie-website.de/#bfsg-barrierefreie-website",
         "name": "BFSG Accessible Website",
         "serviceType": "Technical accessibility check and implementation for websites",
         "description": "Accessibility review, prioritization and technical improvement for websites, shops, booking flows, forms and online checkout processes, oriented toward the Web Content Accessibility Guidelines (WCAG) 2.2 AA. No legal advice and no guaranteed compliance with the German Accessibility Strengthening Act (BFSG).",
         "provider": { "@id": "https://bfsg-barrierefreie-website.de/#organization" },
+        "mainEntityOfPage": { "@id": "https://bfsg-barrierefreie-website.de/en/#webpage" },
         "areaServed": "DE",
         "url": "https://bfsg-barrierefreie-website.de/en/"
       }
@@ -161,8 +199,8 @@
       <div class="container hero__grid">
         <div class="reveal hero__copy">
           <p class="eyebrow">BFSG Accessible Website</p>
-          <h1>Check, prioritize and improve <span class="accent">technical accessibility</span>.</h1>
-          <p class="lede">Since June 28, 2025, requirements under the German Accessibility Strengthening Act (Barrierefreiheitsstärkungsgesetz, BFSG) have applied to certain products and services, including e-commerce, booking, payment, banking and other consumer-facing online completion processes. We clarify the technical scope, check your website manually and fix the important parts: keyboard use, focus, semantics, forms, understandable errors and clear content. No legal opinion. No false certainty.</p>
+          <h1>BFSG website <span class="accent">accessibility check</span> for German online flows.</h1>
+          <p class="lede">Since June 28, 2025, requirements under the German Accessibility Strengthening Act (Barrierefreiheitsstärkungsgesetz, BFSG) have applied to certain products and services, including e-commerce, booking, payment, banking and other consumer-facing online completion processes. We clarify the technical scope, test website accessibility and fix the important parts: keyboard use, focus, semantics, forms, understandable errors and clear content. No legal opinion. No false certainty.</p>
           <div class="hero__cta">
             <a class="btn btn--primary" href="#contact">Ask for a free first assessment</a>
             <a class="btn btn--secondary" href="#services">What we check</a>

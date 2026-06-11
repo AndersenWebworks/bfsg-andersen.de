@@ -1,6 +1,6 @@
-# BFSG Barrierefreie Website | Andersen Webworks
+# BFSG Website Prüfung & Barrierefreiheit testen | Andersen Webworks
 
-> Technische Barrierefreiheit prüfen, priorisieren und verbessern: an den Web Content Accessibility Guidelines (WCAG) 2.2 AA orientierte Webarbeit von Andersen Webworks. Keine Rechtsberatung, keine BFSG-Konformitätsgarantie.
+> BFSG Website Prüfung, Website-Barrierefreiheit prüfen und Barrierefreiheit testen: an den Web Content Accessibility Guidelines (WCAG) 2.2 AA orientierte Webarbeit von Andersen Webworks. Keine Rechtsberatung, keine BFSG-Konformitätsgarantie.
 
 ## Core Facts
 
@@ -45,6 +45,7 @@
 - English version: https://bfsg-barrierefreie-website.de/en/
 - Leichte Sprache: https://bfsg-barrierefreie-website.de/leichte-sprache/
 - Erklärung zur Barrierefreiheit: https://bfsg-barrierefreie-website.de/barrierefreiheit/
+- Ausführliche maschinenlesbare Zusammenfassung: https://bfsg-barrierefreie-website.de/llms-full.txt
 - Maschinenlesbare Organisation: https://bfsg-barrierefreie-website.de/ai/organization.json
 - Maschinenlesbare Leistungen: https://bfsg-barrierefreie-website.de/ai/services.json
 - Maschinenlesbare FAQ: https://bfsg-barrierefreie-website.de/ai/faq.json
