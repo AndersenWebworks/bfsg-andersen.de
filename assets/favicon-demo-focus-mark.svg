@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">BFSG Prüfzeichen</title>
-  <desc id="desc">Reduziertes Fokus- und Prüfzeichen für BFSG Barrierefreie Website.</desc>
+  <desc id="desc">Reduziertes, kontraststarkes Fokus- und Prüfzeichen als Favicon-Entwurf.</desc>
   <rect width="512" height="512" rx="88" fill="#F7F8F5"/>
   <g fill="none" stroke="#1B3B52" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
     <path d="M146 102H94v80"/>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">BFSG Monogramm</title>
+  <desc id="desc">Kontraststarkes BFSG-Monogramm als Favicon-Entwurf.</desc>
+  <rect width="512" height="512" rx="88" fill="#1B3B52"/>
+  <path d="M256 72v368M72 256h368" stroke="#E58A72" stroke-width="18" stroke-linecap="round"/>
+  <g fill="none" stroke="#F7F8F5" stroke-width="24" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M112 112v96h50c22 0 34-10 34-26s-12-26-34-26h-50"/>
+    <path d="M112 160h54c22 0 36 10 36 26s-14 26-36 26h-54"/>
+    <path d="M306 112v104M306 112h88M306 164h72"/>
+    <path d="M190 320h-78v48h70c24 0 38 11 38 30s-14 30-38 30h-78"/>
+    <path d="M396 328c-10-8-25-16-46-16-38 0-68 28-68 64s30 64 68 64c22 0 39-6 51-16v-42h-54"/>
+  </g>
+</svg>
