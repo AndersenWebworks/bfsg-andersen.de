@@ -13,6 +13,7 @@
 
 /* Hero-Visual: Arbeitsbild plus kurzer Ergebnisrhythmus */
 .hero__visual { position: relative; display: flex; flex-direction: column; gap: var(--space-2); margin: 0; min-width: 0; }
+.hero__visual picture { display: block; width: 100%; }
 .hero__image {
   display: block;
   width: 100%;

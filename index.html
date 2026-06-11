@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BFSG Barrierefreie Website | Andersen Webworks</title>
-  <meta name="description" content="BFSG Barrierefreie Website von Andersen Webworks: technische Barrierefreiheit prüfen, priorisieren und verbessern. Orientiert an den Web Content Accessibility Guidelines (WCAG) 2.2 AA.">
+  <meta name="description" content="BFSG Barrierefreie Website von Andersen Webworks: technische Barrierefreiheit prüfen, priorisieren und WCAG-2.2-AA-orientiert verbessern.">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f8f5">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171b19">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -18,6 +18,9 @@
   <meta property="og:title" content="BFSG Barrierefreie Website | Technische Barrierefreiheit prüfen und verbessern">
   <meta property="og:description" content="Prüfung, Priorisierung und Umsetzung barrierearmer Website-Strukturen nach den Web Content Accessibility Guidelines (WCAG) 2.2 AA.">
   <meta property="og:url" content="https://bfsg-barrierefreie-website.de/">
+  <meta property="og:image" content="https://bfsg-barrierefreie-website.de/assets/bfsg-barrierefreie-website-hero.png">
+  <meta property="og:image:width" content="1774">
+  <meta property="og:image:height" content="887">
   <meta property="og:locale" content="de_DE">
   <meta property="og:locale:alternate" content="en_US">
 
@@ -102,7 +105,7 @@
 
   <header class="site-header">
     <div class="container site-header__inner">
-      <a class="brand" href="#main" aria-label="BFSG Barrierefreie Website von Andersen Webworks, zur Startseite">
+      <a class="brand" href="#main" aria-label="Andersen Webworks BFSG Barrierefreie Website, zur Startseite">
         <img class="brand__mark" src="assets/logo.svg" alt="" width="42" height="28">
         <span class="brand__name">Andersen Webworks
           <span class="brand__line">BFSG Barrierefreie Website</span>
@@ -129,9 +132,9 @@
         </nav>
         <div class="header-actions" role="group" aria-label="Darstellung">
           <div class="text-size-control" role="group" aria-label="Schriftgröße">
-            <button class="text-size-control__btn" type="button" data-text-size-option="normal" aria-pressed="true" aria-label="Normale Schriftgröße">A</button>
-            <button class="text-size-control__btn" type="button" data-text-size-option="large" aria-pressed="false" aria-label="Große Schriftgröße">A+</button>
-            <button class="text-size-control__btn" type="button" data-text-size-option="xlarge" aria-pressed="false" aria-label="Sehr große Schriftgröße">A++</button>
+            <button class="text-size-control__btn" type="button" data-text-size-option="normal" aria-pressed="true" aria-label="A normale Schriftgröße">A</button>
+            <button class="text-size-control__btn" type="button" data-text-size-option="large" aria-pressed="false" aria-label="A+ große Schriftgröße">A+</button>
+            <button class="text-size-control__btn" type="button" data-text-size-option="xlarge" aria-pressed="false" aria-label="A++ sehr große Schriftgröße">A++</button>
           </div>
           <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Dunkles Design einschalten" title="Hell und Dunkel umschalten">
             <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
@@ -163,7 +166,10 @@
         </div>
 
         <figure class="reveal hero__visual">
-          <img class="hero__image" src="assets/bfsg-barrierefreie-website-hero.png" alt="Notebook mit Barrierefreiheits-Checkliste, Formularprüfung und Prüfbericht" width="1800" height="1024">
+          <picture>
+            <source type="image/webp" srcset="assets/bfsg-barrierefreie-website-hero-640.webp 640w, assets/bfsg-barrierefreie-website-hero-900.webp 900w, assets/bfsg-barrierefreie-website-hero-1200.webp 1200w" sizes="(min-width: 980px) 48vw, 100vw">
+            <img class="hero__image" src="assets/bfsg-barrierefreie-website-hero.png" alt="Notebook mit Barrierefreiheits-Checkliste, Formularprüfung und Prüfbericht" width="1200" height="600" fetchpriority="high">
+          </picture>
           <div class="proof-card" aria-label="Prüfschwerpunkte">
             <span>Tastatur</span>
             <span>Formulare</span>
@@ -552,10 +558,10 @@
         <div class="section-head reveal">
           <p class="eyebrow">Kontakt</p>
           <h2 id="kon-h">Kostenlose technische Ersteinschätzung.</h2>
-          <p>Schreiben Sie kurz, worum es geht und um welche Seite es sich handelt. Sie bekommen eine ehrliche, kostenlose und unverbindliche technische Ersteinschätzung: ob BFSG-nahe Prozesse sichtbar sind und was als Nächstes sinnvoll ist. Lieber direkt? <a href="mailto:mail@andersen-webworks.de">mail@andersen-webworks.de</a>.</p>
+          <p>Schreiben Sie kurz, worum es geht und um welche Seite es sich handelt. Sie bekommen eine ehrliche, kostenlose und unverbindliche technische Ersteinschätzung: ob BFSG-nahe Prozesse sichtbar sind und was als Nächstes sinnvoll ist. Lieber direkt? mail@andersen-webworks.de.</p>
         </div>
 
-        <form id="kontakt-form" class="reveal" action="mailto:mail@andersen-webworks.de" method="post" enctype="text/plain" style="max-width:38rem">
+        <form id="kontakt-form" class="reveal" action="#kontakt" method="get" style="max-width:38rem">
           <div class="field">
             <label for="f-name">Name <span class="req" aria-hidden="true">*</span></label>
             <input id="f-name" name="name" type="text" autocomplete="name" required aria-required="true" aria-describedby="f-name-err">
@@ -588,7 +594,7 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a class="brand" href="#main" aria-label="BFSG Barrierefreie Website von Andersen Webworks">
+        <a class="brand" href="#main" aria-label="Andersen Webworks BFSG Barrierefreie Website">
           <img class="brand__mark" src="assets/logo.svg" alt="" width="42" height="28">
           <span class="brand__name">Andersen Webworks
             <span class="brand__line">BFSG Barrierefreie Website</span>
