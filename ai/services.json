@@ -7,36 +7,36 @@
       "audience": "Unternehmen, Selbständige und Organisationen mit Websites, Shops, Formularen, Buchungsstrecken oder B2C-Abschlussprozessen",
       "description": "Manuelle technische und inhaltliche Prüfung nach WCAG-2.2-AA-Logik mit priorisiertem Maßnahmenbericht.",
       "priceFromNetEur": 1900,
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#pruefung",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#pruefung",
       "limits": "Keine Rechtsberatung, keine BFSG-Konformitätsgarantie. Förderfähigkeit, Antrag und Verfahren werden vor Angebot und Start geprüft."
     },
     {
       "name": "Technische Umsetzung",
       "audience": "Website-Betreiber, die die geprüften Barrieren konkret beheben lassen möchten",
       "description": "Korrekturen an Semantik, Fokus, Kontrasten, Formularen, Navigation, Alternativtexten und verständlichen Status- oder Fehlermeldungen.",
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#ablauf",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#ablauf",
       "limits": "Festpreis nach Sichtung und Check. Der rechtliche BFSG-Anwendungsbereich muss projektspezifisch geklärt werden."
     },
     {
       "name": "Texte und Leichte Sprache",
       "audience": "Website-Betreiber, deren Inhalte, Fehlermeldungen oder Alternativtexte verständlicher werden sollen",
       "description": "Redaktionelle Arbeit an verständlichen Inhalten, Alternativtexten, Fehlermeldungen sowie Leichter und Einfacher Sprache, verantwortet von einer Sprachdienstleisterin.",
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#team",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#team",
       "limits": "Leichte Sprache ist ein eigener Text- und Prüfbaustein und keine automatische Umschreibung."
     },
     {
       "name": "Barrierefreiheitsinformation",
       "audience": "Website-Betreiber, die den geprüften Stand transparent beschreiben möchten",
       "description": "Vorsichtig formulierte Erklärung zum geprüften Stand, zu bekannten Einschränkungen und zum Kontaktweg für Hinweise.",
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#keine-tricks",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#keine-tricks",
       "limits": "Keine Zertifizierung und kein 100-Prozent-barrierefrei-Versprechen."
     },
     {
@@ -44,18 +44,18 @@
       "audience": "Teams, die neue Inhalte und technische Änderungen weiter barrierearm halten möchten",
       "description": "Laufende Pflege, Stichproben, Updates und Prüfung neuer Inhalte, damit keine vermeidbaren Barrieren eingebaut werden.",
       "priceFromNetEurPerMonth": 400,
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#ablauf",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#ablauf",
       "limits": "Monitoring ersetzt keine externe Zertifizierung."
     },
     {
       "name": "Schulung",
       "audience": "Teams, die Inhalte selbst barrierearm pflegen möchten",
       "description": "Schulung zu Alternativtexten, verständlicher Sprache, korrekten Strukturen und barrierearmer Inhaltspflege.",
-      "url": "https://bfsg-andersen.de/#leistungen",
-      "englishUrl": "https://bfsg-andersen.de/en/#services",
-      "easyLanguageUrl": "https://bfsg-andersen.de/leichte-sprache/#ablauf",
+      "url": "https://bfsg-barrierefreie-website.de/#leistungen",
+      "englishUrl": "https://bfsg-barrierefreie-website.de/en/#services",
+      "easyLanguageUrl": "https://bfsg-barrierefreie-website.de/leichte-sprache/#ablauf",
       "limits": "Auf Anfrage."
     }
   ]

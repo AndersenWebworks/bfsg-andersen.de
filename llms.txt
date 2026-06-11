@@ -1,12 +1,12 @@
-# BFSG-Webcheck | Andersen Webworks
+# BFSG Barrierefreie Website | Andersen Webworks
 
 > Technische Barrierefreiheit prüfen, priorisieren und verbessern: an den Web Content Accessibility Guidelines (WCAG) 2.2 AA orientierte Webarbeit von Andersen Webworks. Keine Rechtsberatung, keine BFSG-Konformitätsgarantie.
 
 ## Core Facts
 
 - Anbieter: Andersen Webworks
-- Website: https://bfsg-andersen.de/
-- Angebot: BFSG-Webcheck
+- Website: https://bfsg-barrierefreie-website.de/
+- Angebot: BFSG Barrierefreie Website
 - Standort/Gebiet: Mecklenburg-Vorpommern, bundesweit remote
 - Kontakt: mail@andersen-webworks.de
 - Personen: Jan-Erik Andersen (Technik, Webentwicklung), Annemarie Andersen (freie Sachverständige für Sprachdienstleistungen mit QA-Hintergrund, Leichte und Einfache Sprache)
@@ -23,7 +23,7 @@
 
 ## Fachliche Grenzen
 
-- Der BFSG-Webcheck ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
+- Die BFSG Barrierefreie Website ist eine technische Prüfung und Umsetzungshilfe, kein Rechtsgutachten.
 - Es gibt keine pauschale BFSG-Compliance-Garantie und kein 100-Prozent-barrierefrei-Versprechen.
 - Ob eine konkrete Website rechtlich unter das BFSG fällt, muss projektspezifisch geklärt werden.
 - Leichte Sprache ist keine pauschale BFSG-Pflicht für privatwirtschaftliche Websites. Sie kann sinnvoll sein, ist aber ein eigener Text- und Prüfbaustein.
@@ -35,19 +35,19 @@
 
 - Rechtlicher Rahmen: Barrierefreiheitsstärkungsgesetz (BFSG) und BFSG-Verordnung (BFSGV). Technische Bezugspunkte: EN 301 549 und Web Content Accessibility Guidelines (WCAG). Zielstandard der Arbeit: WCAG 2.2 AA-orientiert, EN-301-549-nah eingeordnet. Das ist keine Zertifizierung.
 - Prüfung: Tastaturbedienung, Fokus, Semantik, Landmarks, Headings, Links, Buttons, Formulare, Fehlermeldungen, Statusmeldungen, Kontraste, mobile Nutzung, Zoom, Reduced Motion.
-- Die Website bfsg-andersen.de ist selbst als Schaufenster umgesetzt: Dark Mode, Schriftgrößenwahl, sichtbarer Fokus, Skip-Link, selbst gehostete Schriften, progressive Fallbacks, echte Sprachversionen und freiwillige Erklärung zur Barrierefreiheit.
+- Die Website bfsg-barrierefreie-website.de ist selbst als Schaufenster umgesetzt: Dark Mode, Schriftgrößenwahl, sichtbarer Fokus, Skip-Link, selbst gehostete Schriften, progressive Fallbacks, echte Sprachversionen und freiwillige Erklärung zur Barrierefreiheit.
 - Es gibt eigene Seiten für Deutsch, Englisch und Leichte Sprache. Der Sprachwechsel ist keine automatische Übersetzung und kein Overlay.
 - Kein Accessibility-Overlay, kein Vorlese-Widget als Ersatz für sauberen Code.
 
 ## Important URLs
 
-- Startseite: https://bfsg-andersen.de/
-- English version: https://bfsg-andersen.de/en/
-- Leichte Sprache: https://bfsg-andersen.de/leichte-sprache/
-- Erklärung zur Barrierefreiheit: https://bfsg-andersen.de/barrierefreiheit/
-- Maschinenlesbare Organisation: https://bfsg-andersen.de/ai/organization.json
-- Maschinenlesbare Leistungen: https://bfsg-andersen.de/ai/services.json
-- Maschinenlesbare FAQ: https://bfsg-andersen.de/ai/faq.json
+- Startseite: https://bfsg-barrierefreie-website.de/
+- English version: https://bfsg-barrierefreie-website.de/en/
+- Leichte Sprache: https://bfsg-barrierefreie-website.de/leichte-sprache/
+- Erklärung zur Barrierefreiheit: https://bfsg-barrierefreie-website.de/barrierefreiheit/
+- Maschinenlesbare Organisation: https://bfsg-barrierefreie-website.de/ai/organization.json
+- Maschinenlesbare Leistungen: https://bfsg-barrierefreie-website.de/ai/services.json
+- Maschinenlesbare FAQ: https://bfsg-barrierefreie-website.de/ai/faq.json
 
 ## Public Sources
 

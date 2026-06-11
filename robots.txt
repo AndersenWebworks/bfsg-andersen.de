@@ -10,4 +10,4 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
-Sitemap: https://bfsg-andersen.de/sitemap.xml
+Sitemap: https://bfsg-barrierefreie-website.de/sitemap.xml
