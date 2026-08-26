@@ -21,7 +21,6 @@
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin-left: clamp(0rem, calc((100vw - var(--container)) / 2), 14rem);
   text-decoration: none;
   color: var(--text);
 }
@@ -91,7 +90,9 @@
   color: var(--accent-2-ink);
 }
 
-@media (max-width: 96rem) {
+/* Keep the full navigation away from the point where the CTA, language
+   switcher and display controls begin competing for the same row. */
+@media (max-width: 112rem) {
   html.js .nav-toggle { display: inline-flex; }
   .site-nav {
     position: static;
@@ -115,6 +116,11 @@
   .site-nav a { white-space: normal; }
   .site-nav .btn { margin-top: var(--space-2); justify-content: center; }
   .language-switcher ul { justify-content: flex-end; }
+
+  /* Without JavaScript the navigation remains visible, but gets its own row
+     instead of pushing the language and display controls into an overflow. */
+  html:not(.js) .site-header__right { flex-wrap: wrap; }
+  html:not(.js) .site-header__right .site-nav { flex: 1 0 100%; order: 3; }
 }
 
 .site-nav--static {
